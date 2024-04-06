@@ -26,7 +26,7 @@ const TopCategories = () => {
         <div className="edu-categorie-area categorie-area-4 edu-section-gap">
             <div className="container">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <h2 className="title">Top Categories</h2>
+                    <h2 className="title">Top những ngành nghề đang thiếu nhân lực tại Nhật Bản</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
                     <p>Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore</p>
                 </div>

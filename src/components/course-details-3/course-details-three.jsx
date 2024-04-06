@@ -17,7 +17,7 @@ const CourseDetailsThree = () => {
                                     <h2 className="title">Global Education Fall Meeting for Everyone</h2>
                                     <ul className="course-meta">
                                         <li><i className="icon-58"></i>by Edward Norton</li>
-                                        <li><i className="icon-59"></i>English</li>
+                                        <li><i className="icon-59"></i>Tiếng Việt</li>
                                         <li className="course-rating">
                                             <div className="rating">
                                                 <i className="icon-23"></i>
@@ -26,7 +26,7 @@ const CourseDetailsThree = () => {
                                                 <i className="icon-23"></i>
                                                 <i className="icon-23"></i>
                                             </div>
-                                            <span className="rating-count">(720 Rating)</span>
+                                            <span className="rating-count">(720 ⭐)</span>
                                         </li>
                                     </ul>
 
@@ -41,20 +41,20 @@ const CourseDetailsThree = () => {
 
                                 <div className="course-enroll-box">
                                     <div className="single-item">
-                                        <h6 className="title">Current Status</h6>
-                                        <span className="enroll-status">Not Enrolled</span>
+                                        <h6 className="title">Trạng thái hiện tại: </h6>
+                                        <span className="enroll-status">Chưa đăng ký</span>
                                     </div>
                                     <div className="single-item course-price">
-                                        <h6 className="title">Price</h6>
+                                        <h6 className="title">Giá tiền</h6>
                                         <span className="price">$70.00</span>
                                     </div>
                                     <div className="single-item">
-                                        <h6 className="title">Get Started</h6>
-                                        <a href="#" className="edu-btn btn-medium enroll-btn">Take This Course</a>
+                                        <h6 className="title">Bắt đầu</h6>
+                                        <a href="#" className="edu-btn btn-medium enroll-btn">Chọn khóa học này</a>
                                         <div className="login-btn">
                                             <span>or</span>
                                             <Link href="/sign-in">
-                                                <a>Login</a>
+                                                <a>Đăng nhập</a>
                                             </Link>
                                         </div>
                                     </div>

@@ -3,7 +3,7 @@ import VideoModal from '../../common/popup-modal/video-modal';
 import { motion } from 'framer-motion';
 import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
-const features_list = ['Expert Trainers','Online Remote Learning','Lifetime Access']
+const features_list = ['Giáo dục - MASARU EDU','Giới thiệu việc làm - MASARU HR','Kết nối - MASARU LINK']
 
 const AboutArea = () => {
     const { isVideoOpen, setIsVideoOpen } = useModal();
@@ -36,8 +36,8 @@ const AboutArea = () => {
                                             <i className="icon-21"></i>
                                         </div>
                                         <div className="content">
-                                            <h6 className="title">29+</h6>
-                                            <span className="subtitle">Wonderful Awards</span>
+                                            <h6 className="title">200+</h6>
+                                            <span className="subtitle">Học viên đã sang Nhật vào năm 2023</span>
                                         </div>
                                     </div>
                                 </div>
@@ -72,10 +72,10 @@ const AboutArea = () => {
                         <div className="col-lg-6" data-sal-delay="150" data-sal="slide-left" data-sal-duration="800">
                             <div className="about-content">
                                 <div className="section-title section-left">
-                                    <span className="pre-title">About Us</span>
-                                    <h2 className="title">Learn & Grow Your Skills From <span className="color-secondary">Anywhere</span></h2>
+                                    <span className="pre-title">Về chúng tôi - MASARU</span>
+                                    <h2 className="title">Chúng tôi tự hào là đơn vị phái cử lao động <span className="color-secondary">hàng đầu tại Việt Nam</span></h2>
                                     <span className="shape-line"><i className="icon-19"></i></span>
-                                    <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim minim veniam quis nostrud exercitation ullamco laboris.</p>
+                                    <p>Chúng tôi luôn đặt chất lượng và uy tín lên hàng đầu, cam kết tạo mọi điều kiện tốt nhất cho người lao động có đầy đủ kiến thức, kỹ năng, ngôn ngữ để sinh sống và làm việc tại nước ngoài. </p>
                                 </div>
                                 <ul className="features-list">
                                     {features_list.map((l,i) => <li key={i}>{l}</li>)}

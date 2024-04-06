@@ -15,19 +15,19 @@ const CourseDetailsArea = ({ course }) => {
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview"
-                                    type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+                                    type="button" role="tab" aria-controls="overview" aria-selected="true">Tổng quan</button>
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link" id="carriculam-tab" data-bs-toggle="tab" data-bs-target="#carriculam"
-                                    type="button" role="tab" aria-controls="carriculam" aria-selected="false">Carriculam</button>
+                                    type="button" role="tab" aria-controls="carriculam" aria-selected="false">Lộ trình học</button>
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link" id="instructor-tab" data-bs-toggle="tab" data-bs-target="#instructor"
-                                    type="button" role="tab" aria-controls="instructor" aria-selected="false">Instructor</button>
+                                    type="button" role="tab" aria-controls="instructor" aria-selected="false">Giảng viên</button>
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button"
-                                    role="tab" aria-controls="review" aria-selected="false">Reviews</button>
+                                    role="tab" aria-controls="review" aria-selected="false">Nhận xét</button>
                                 </li>
                             </ul>
 
@@ -35,10 +35,10 @@ const CourseDetailsArea = ({ course }) => {
                                 <div className="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                                     <div className="course-tab-content">
                                         <div className="course-overview">
-                                            <h3 className="heading-title">Course Description</h3>
+                                            <h3 className="heading-title">Miêu tả khóa học</h3>
                                             <p>{course_desc}</p>
                                             <p className="mb--60">{course_desc_2}</p>
-                                            <h5 className="title">What You’ll Learn?</h5>
+                                            <h5 className="title">Bạn sẽ học những gì?</h5>
                                             <ul className="mb--60">
                                                 {learn_list?.map((l, i) => <li key={i}>{l}</li>)}
                                             </ul>
@@ -50,7 +50,7 @@ const CourseDetailsArea = ({ course }) => {
                                 <div className="tab-pane fade" id="carriculam" role="tabpanel" aria-labelledby="carriculam-tab">
                                     <div className="course-tab-content">
                                         <div className="course-curriculam">
-                                            <h3 className="heading-title">Course Curriculum</h3>
+                                            <h3 className="heading-title">Lộ trình khóa học</h3>
                                             <p>{curriculum_desc}</p>
                                             {course_lessons.map((lesson, i) => (
                                                 <div key={i} className="course-lesson">
@@ -74,8 +74,8 @@ const CourseDetailsArea = ({ course }) => {
 
                                                                 {list?.badge_list && 
                                                                     <div className="badge-list">
-                                                                        <span className="badge badge-primary">{list?.question} Question</span>
-                                                                        <span className="badge badge-secondary">{list?.minutes} Minutes</span>
+                                                                        <span className="badge badge-primary">{list?.question} Câu hỏi</span>
+                                                                        <span className="badge badge-secondary">{list?.minutes} Phút</span>
                                                                     </div>
                                                                 }
                                                             </li>
@@ -114,8 +114,8 @@ const CourseDetailsArea = ({ course }) => {
                                 <div className="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
                                     <div className="course-tab-content">
                                         <div className="course-review">
-                                            <h3 className="heading-title">Course Rating</h3>
-                                            <p>{rating} average rating based on {rating_count} rating</p>
+                                            <h3 className="heading-title">Course ⭐</h3>
+                                            <p>{rating} trung bình dựa trên {rating_count} tổng đánh giá</p>
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-sm-4">
                                                     <div className="rating-box">
@@ -127,7 +127,7 @@ const CourseDetailsArea = ({ course }) => {
                                                             <i className="icon-23"></i>
                                                             <i className="icon-23"></i>
                                                         </div>
-                                                        <span>({rating_count} Review)</span>
+                                                        <span>({rating_count} Nhận xét)</span>
                                                     </div>
                                                 </div>
                                                 <div className="col-sm-8">
@@ -142,7 +142,7 @@ const CourseDetailsArea = ({ course }) => {
                                             </div>
 
                                             <div className="comment-area">
-                                                <h3 className="heading-title">Reviews</h3>
+                                                <h3 className="heading-title">Nhận xét</h3>
                                                 <div className="comment-list-wrapper">
                                                     {reviews?.map((review, i) => (
                                                         <SingleComment key={i} review={review} />
@@ -151,9 +151,9 @@ const CourseDetailsArea = ({ course }) => {
                                             </div>
 
                                             <div className="comment-form-area">
-                                                <h3 className="heading-title">Write a Review</h3>
+                                                <h3 className="heading-title">Viết nhận xét</h3>
                                                 <div className="rating-icon">
-                                                    <h6 className="title">Rating Here</h6>
+                                                    <h6 className="title">⭐ Đánh giá tại đây!</h6>
                                                     <div className="rating">
                                                         <i className="icon-23"></i>
                                                         <i className="icon-23"></i>

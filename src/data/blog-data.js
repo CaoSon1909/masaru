@@ -49,7 +49,7 @@ const blog_data = [
     id: 5,
     img: '/assets/images/blog/blog-05.jpg',
     category: 'LECTURE',
-    title: 'Qualification for Students’ Satisfaction Rate',
+    title: 'Qualification for Students’ Được cấp chứng chỉ',
     date: "SEP 10 2021",
     comment: 14,
     sm_desc: 'Lorem ipsum dolor sit amet consec tetur adipisicing sed eiusmod tempor incid idunt labore.',

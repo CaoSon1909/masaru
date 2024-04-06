@@ -46,11 +46,11 @@ const CourseTypeSix = ({ data, classes }) => {
                             <i className="icon-23"></i>
                             <i className="icon-23"></i>
                         </div>
-                        <span className="rating-count">({data.rating} /{data.rating_count} Rating)</span>
+                        <span className="rating-count">({data.rating} /{data.rating_count} ⭐)</span>
                     </div>
                     <div className="read-more-btn">
                         <a className="edu-btn btn-small btn-secondary" onClick={() => handleAddToCart(data)} style={{ cursor: 'pointer' }}>
-                            { cartCourses.some(item => item.id === data.id) ? 'Added to cart' : 'Add to cart' }
+                            { cartCourses.some(item => item.id === data.id) ? 'Tiếp tục thêm vào giỏ hàng' : 'Thêm vào giỏ hàng' }
                             <i className="icon-4"></i>
                         </a>
                     </div>

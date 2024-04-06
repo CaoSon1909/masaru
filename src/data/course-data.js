@@ -2,18 +2,18 @@ const course_data = [
   {
     id: 1,
     img: 'course-01.jpg',
-    duration: '4 Weeks',
+    duration: '4 Năm',
     course_outline:'Online + Onsite',
-    level: 'Advanced',
-    title: 'Starting SEO as your Home Based Business',
+    level: 'Chuyên nghiệp',
+    title: 'Nhân Viên Lắp Đặt Đường Ống',
     rating: '4.9',
     rating_count: 8,
     course_price: '49.00',
     lesson: 13,
     student: 28,
     category:'Art & Design',
-    short_desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor.',
-    instructor: 'Jane Seymour',
+    short_desc: 'Giới thiệu sơ bộ về công việc này',
+    instructor: '[Tên giáo viên trực tiếp giảng dạy]',
     instructor_img:'team-01.webp',
     instructor_title:'Founder & CEO',
     instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
@@ -28,8 +28,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'Có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -38,8 +38,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -50,8 +50,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -71,14 +71,14 @@ const course_data = [
   {
     id: 2,
     img: 'course-02.jpg',
-    duration: '3 Weeks',
+    duration: '3 Năm',
     course_outline:'Online Only',
-    level: 'Beginner',
-    title: 'Java Programming Masterclass for Software Developers',
+    level: 'Sơ cấp',
+    title: 'Nhân Viên Sơn Đồ Gỗ',
     rating: '4.4',
     rating_count: 10,
     course_price: '78.99',
-    lesson: 15,
+    lesson: '15',
     student: 35,
     category:'Development',
     short_desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor.',
@@ -97,8 +97,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'Korean',
-    certificate: 'yes',
+    language: 'Tiếng Hàn',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -107,8 +107,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -119,8 +119,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -140,10 +140,10 @@ const course_data = [
   {
     id: 3,
     img: 'course-03.jpg',
-    duration: '10 Weeks',
+    duration: '10 Tuần',
     course_outline:'Onsite Only',
-    level: 'Advanced',
-    title: 'Building A Better World One Student At A Time',
+    level: 'Chuyên nghiệp',
+    title: 'Nhân Viên Kim Loại Miếng',
     rating: '5.0',
     rating_count: 15,
     course_price: '64.99',
@@ -166,8 +166,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -176,8 +176,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -188,8 +188,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -209,10 +209,10 @@ const course_data = [
   {
     id: 4,
     img: 'course-04.jpg',
-    duration: '6 Weeks',
+    duration: '6 Tuần',
     course_outline:'Online Only',
-    level: 'Intermediate',
-    title: 'Master Your Personal Brand Like a Marketing Pro',
+    level: 'Trung bình',
+    title: 'Nhân Viên Dựng Giàn Giáo',
     rating: '4.5',
     rating_count: 18,
     course_price: '55.99',
@@ -236,7 +236,7 @@ const course_data = [
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
     language: 'German',
-    certificate: 'yes',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -245,8 +245,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -257,8 +257,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -278,9 +278,9 @@ const course_data = [
   {
     id: 5,
     img: 'course-05.jpg',
-    duration: '6 Weeks',
+    duration: '6 Tuần',
     course_outline:'Online + Onsite',
-    level: 'Advanced',
+    level: 'Chuyên nghiệp',
     title: 'The Complete 2023 Web Development Bootcamp',
     rating: '4.8',
     rating_count: 27,
@@ -304,8 +304,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -314,8 +314,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -326,8 +326,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -347,9 +347,9 @@ const course_data = [
   {
     id: 6,
     img: 'course-06.jpg',
-    duration: '9 Weeks',
+    duration: '9 Tuần',
     course_outline:'Online + Onsite',
-    level: 'Intermediate',
+    level: 'Trung bình',
     title: 'Python for Beginners - Learn Programming from scratch',
     rating: '4.9',
     rating_count: 30,
@@ -373,8 +373,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -383,8 +383,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -395,8 +395,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -418,7 +418,7 @@ const course_data = [
     university_courses:true,
     img: 'course-07.jpg',
     filter_category:["undergraduate","graduate"],
-    duration: '6 Weeks',
+    duration: '6 Tuần',
     course_outline:'Online + Onsite',
     level: 'Business',
     title: 'Public Administration',
@@ -445,7 +445,7 @@ const course_data = [
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
     language:'Hindi',
-    certificate:'yes',
+    certificate:'có',
     videoId:'c238xxeDdFI',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -454,8 +454,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -466,8 +466,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -489,7 +489,7 @@ const course_data = [
     university_courses:true,
     img: 'course-08.jpg',
     filter_category:["undergraduate","graduate"],
-    duration: '10 Weeks',
+    duration: '10 Tuần',
     course_outline:'Online + Onsite',
     level: 'Business',
     title: 'Major in Economics',
@@ -515,8 +515,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -525,8 +525,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -537,8 +537,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -560,7 +560,7 @@ const course_data = [
     university_courses:true,
     img: 'course-09.jpg',
     filter_category:["undergraduate","online"],
-    duration: '3 Weeks',
+    duration: '3 Tuần',
     level: 'Business',
     course_outline:'Online Only',
     title: 'Business Studies',
@@ -587,7 +587,7 @@ const course_data = [
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
     language: 'Korean',
-    certificate: 'yes',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -596,8 +596,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -608,8 +608,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -628,7 +628,7 @@ const course_data = [
   },
   {
     id: 10,
-    duration: '12 Weeks',
+    duration: '12 Tuần',
     course_outline:'Onsite Only',
     img: 'course-10.jpg',
     hours: 35,
@@ -656,8 +656,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -666,8 +666,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -678,8 +678,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -698,12 +698,12 @@ const course_data = [
   },
   {
     id: 11,
-    duration: '9 Weeks',
+    duration: '9 Tuần',
     course_outline:'Online Only',
     img: 'course-11.jpg',
     hours: 45,
-    level: 'Intermediate',
-    title: 'The Complete Angular Course: Beginner to Advanced',
+    level: 'Trung bình',
+    title: 'The Complete Angular Course: Beginner to Chuyên nghiệp',
     rating: '4.8',
     rating_count: 16,
     course_price: '40',
@@ -727,7 +727,7 @@ const course_data = [
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
     language: 'German',
-    certificate: 'yes',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -736,8 +736,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -748,8 +748,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -768,11 +768,11 @@ const course_data = [
   },
   {
     id: 12,
-    duration: '8 Weeks',
+    duration: '8 Tuần',
     course_outline:'Online + Onsite',
     img: 'course-12.jpg',
     hours: 20,
-    level: 'Advanced',
+    level: 'Chuyên nghiệp',
     title: 'Vue - The Complete Guide (w/ Router, Vuex, Composition API)',
     rating: '5',
     rating_count: 20,
@@ -797,7 +797,7 @@ const course_data = [
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
     language: 'Hindi',
-    certificate: 'yes',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -806,8 +806,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -818,8 +818,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -838,7 +838,7 @@ const course_data = [
   },
   {
     id: 13,
-    duration: '14 Weeks',
+    duration: '14 Tuần',
     course_outline:'Onsite Only',
     img: 'course-13.jpg',
     hours: 25,
@@ -866,8 +866,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -876,8 +876,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -888,8 +888,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -911,7 +911,7 @@ const course_data = [
     id: 14,
     kitchen_course:true,
     course_outline:'Online Only',
-    duration: '16 Weeks',
+    duration: '16 Tuần',
     img: 'course-14.jpg',
     hours: 30,
     level: 'Cooking',
@@ -938,8 +938,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -948,8 +948,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -960,8 +960,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -981,7 +981,7 @@ const course_data = [
   {
     id: 15,
     kitchen_course:true,
-    duration: '15 Weeks',
+    duration: '15 Tuần',
     course_outline:'Online + Onsite',
     img: 'course-15.jpg',
     hours: 32,
@@ -1009,8 +1009,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1019,8 +1019,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1031,8 +1031,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1052,7 +1052,7 @@ const course_data = [
   {
     id: 16,
     kitchen_course:true,
-    duration: '13 Weeks',
+    duration: '13 Tuần',
     course_outline:'Onsite Only',
     img: 'course-16.jpg',
     hours: 35,
@@ -1080,8 +1080,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1090,8 +1090,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1102,8 +1102,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1123,7 +1123,7 @@ const course_data = [
   {
     id: 17,
     kitchen_course:true,
-    duration: '20 Weeks',
+    duration: '20 Tuần',
     course_outline:'Online + Onsite',
     img: 'course-17.jpg',
     hours: 40,
@@ -1152,8 +1152,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1162,8 +1162,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1174,8 +1174,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1195,7 +1195,7 @@ const course_data = [
   {
     id: 18,
     kitchen_course:true,
-    duration: '15 Weeks',
+    duration: '15 Tuần',
     course_outline:'Online + Onsite',
     img: 'course-18.jpg',
     hours: 32,
@@ -1223,8 +1223,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1233,8 +1233,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1245,8 +1245,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1266,7 +1266,7 @@ const course_data = [
   {
     id: 19,
     kitchen_course:true,
-    duration: '13 Weeks',
+    duration: '13 Tuần',
     course_outline:'Onsite Only',
     img: 'course-19.jpg',
     hours: 35,
@@ -1294,8 +1294,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1304,8 +1304,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1316,8 +1316,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1338,7 +1338,7 @@ const course_data = [
     id: 20,
     yoga_course: true,
     img: 'course-20.jpg',
-    duration: '9 Weeks',
+    duration: '9 Tuần',
     course_outline:'Onsite Only',
     level: 'Power Yoga',
     title: 'Yoga for Back Pain Relief',
@@ -1364,8 +1364,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1374,8 +1374,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1386,8 +1386,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1408,7 +1408,7 @@ const course_data = [
     id: 21,
     yoga_course: true,
     img: 'course-21.jpg',
-    duration: '5 Weeks',
+    duration: '5 Tuần',
     course_outline:'Online + Onsite',
     level: 'Power Yoga',
     title: 'Super Brain YOGA',
@@ -1435,7 +1435,7 @@ const course_data = [
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
     language:'Hindi',
-    certificate:'yes',
+    certificate:'có',
     videoId:'c238xxeDdFI',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1444,8 +1444,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1456,8 +1456,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1478,7 +1478,7 @@ const course_data = [
     id: 22,
     yoga_course:true,
     img: 'course-22.jpg',
-    duration: '10 Weeks',
+    duration: '10 Tuần',
     course_outline:'Online + Onsite',
     level: 'Power Yoga',
     title: 'Chair Yoga for Seniors',
@@ -1504,8 +1504,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1514,8 +1514,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1526,8 +1526,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1548,7 +1548,7 @@ const course_data = [
     id: 23,
     yoga_course: true,
     img: 'course-23.jpg',
-    duration: '3 Weeks',
+    duration: '3 Tuần',
     level: 'Power Yoga',
     course_outline:'Online Only',
     title: 'Online Yoga for Beginners',
@@ -1575,7 +1575,7 @@ const course_data = [
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
     language: 'Korean',
-    certificate: 'yes',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1584,8 +1584,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1596,8 +1596,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1617,7 +1617,7 @@ const course_data = [
   {
     id: 24,
     yoga_course: true,
-    duration: '12 Weeks',
+    duration: '12 Tuần',
     course_outline:'Online Only',
     img: 'course-24.jpg',
     hours: 35,
@@ -1645,8 +1645,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1655,8 +1655,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1667,8 +1667,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1688,7 +1688,7 @@ const course_data = [
   {
     id: 25,
     yoga_course: true,
-    duration: '9 Weeks',
+    duration: '9 Tuần',
     course_outline:'Online Only',
     img: 'course-25.jpg',
     hours: 45,
@@ -1717,7 +1717,7 @@ const course_data = [
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
     language: 'German',
-    certificate: 'yes',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1726,8 +1726,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1738,8 +1738,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1760,7 +1760,7 @@ const course_data = [
   {
     id: 26,
     kindergarten_course:true,
-    duration: '5 Weeks',
+    duration: '5 Tuần',
     course_outline:'Online + Onsite',
     img: 'course-26.jpg',
     bg_color:'bg-color-extra02',
@@ -1789,8 +1789,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1799,8 +1799,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1811,8 +1811,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1832,7 +1832,7 @@ const course_data = [
   {
     id: 27,
     kindergarten_course:true,
-    duration: '12 Weeks',
+    duration: '12 Tuần',
     course_outline:'Online + Onsite',
     img: 'course-27.jpg',
     bg_color:'bg-color-primary',
@@ -1861,8 +1861,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1871,8 +1871,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1883,8 +1883,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1904,13 +1904,13 @@ const course_data = [
   {
     id: 28,
     kindergarten_course:true,
-    duration: '5 Weeks',
+    duration: '5 Tuần',
     course_outline:'Onsite Only',
     img: 'course-28.jpg',
     bg_color:'bg-color-secondary',
     hours: 12,
     level: 'Drawing',
-    title: 'The Ultimate Drawing Course - Beginner to Advanced',
+    title: 'The Ultimate Drawing Course - Beginner to Chuyên nghiệp',
     rating: '4.5',
     rating_count: 40,
     course_price: '60',
@@ -1933,8 +1933,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -1943,8 +1943,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -1955,8 +1955,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -1976,7 +1976,7 @@ const course_data = [
   {
     id: 29,
     kindergarten_course:true,
-    duration: '12 Weeks',
+    duration: '12 Tuần',
     course_outline:'Online + Onsite',
     img: 'course-29.jpg',
     bg_color:'bg-color-extra02',
@@ -2005,8 +2005,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -2015,8 +2015,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -2027,8 +2027,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -2048,7 +2048,7 @@ const course_data = [
   {
     id: 30,
     kindergarten_course:true,
-    duration: '5 Weeks',
+    duration: '5 Tuần',
     course_outline:'Online Only',
     img: 'course-30.jpg',
     bg_color:'bg-color-primary',
@@ -2077,8 +2077,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -2087,8 +2087,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -2099,8 +2099,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },
@@ -2120,7 +2120,7 @@ const course_data = [
   {
     id: 31,
     kindergarten_course:true,
-    duration: '12 Weeks',
+    duration: '12 Tuần',
     course_outline:'Online + Onsite',
     img: 'course-31.jpg',
     bg_color:'bg-color-secondary',
@@ -2149,8 +2149,8 @@ const course_data = [
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
-    language: 'English',
-    certificate: 'yes',
+    language: 'Tiếng Việt',
+    certificate: 'có',
     videoId: 'PICj5tr9hcc',
     course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
@@ -2159,8 +2159,8 @@ const course_data = [
     curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
     course_lessons: [
       {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 1-4',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Introduction', icon: 'icon-68' },
           { title: 'Course Overview', icon: 'icon-68' },
@@ -2171,8 +2171,8 @@ const course_data = [
         ]
       },
       {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+        title: 'Tuần 5-8',
+        text: 'Chuyên nghiệp story telling techniques for writers: Personas, Characters & Plots',
         lessons: [
           { title: 'Defining Functions', icon: 'icon-68' },
           { title: 'Function Parameters', icon: 'icon-68' },

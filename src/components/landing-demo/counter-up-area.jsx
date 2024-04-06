@@ -14,7 +14,7 @@ const CounterUpArea = () => {
                                         <Counter number="8" text="+" />
                                     </span>
                                 </h2>
-                                <span className="title">Home Pages</span>
+                                <span className="title">Trang chủ</span>
                             </div>
                         </div>
                         <div className="col-sm-4">
@@ -24,7 +24,7 @@ const CounterUpArea = () => {
                                         <Counter number="70" text="+" />
                                     </span>
                                 </h2>
-                                <span className="title">Inner Pages</span>
+                                <span className="title">Trang phụ</span>
                             </div>
                         </div>
                         <div className="col-sm-4">

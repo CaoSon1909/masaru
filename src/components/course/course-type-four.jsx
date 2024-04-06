@@ -112,7 +112,7 @@ const CourseTypeFour = ({ data, classes }) => {
                     <div className="button-group">
                         <a className="edu-btn btn-medium" onClick={()=> handleAddToCart(data)}
                         style={{cursor:'pointer'}}>
-                            {cartCourses.some(item => item.id === data.id) ? 'Added to cart' : 'Add to cart'}
+                            {cartCourses.some(item => item.id === data.id) ? 'Tiếp tục thêm vào giỏ hàng' : 'Thêm vào giỏ hàng'}
                             <i className="icon-4"></i>
                         </a>
 

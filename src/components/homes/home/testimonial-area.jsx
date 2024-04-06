@@ -67,11 +67,11 @@ export default function TestimonialArea() {
                     <div className="col-lg-5">
                         <div className="testimonial-heading-area">
                             <div className="section-title section-left" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
-                                <span className="pre-title">Testimonials</span>
-                                <h2 className="title">What Our Students Have To Say</h2>
+                                <span className="pre-title">Cảm nghĩ của học viên</span>
+                                <h2 className="title">Cảm nghĩ của học viên sau khi hoàn thành khóa học</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                                 <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incididunt labore dolore magna aliquaenim ad minim.</p>
-                                <a href="#" className="edu-btn btn-large">View All<i className="icon-4"></i></a>
+                                <a href="#" className="edu-btn btn-large">Xem tất cả<i className="icon-4"></i></a>
                             </div>
                         </div>
                     </div>

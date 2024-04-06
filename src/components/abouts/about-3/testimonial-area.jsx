@@ -7,8 +7,8 @@ import VideoModal from '../../common/popup-modal/video-modal';
 import useModal from '../../../hooks/use-modal';
 
 const contents = {
-    pre_title: 'Testimonials',
-    title: <>What Our Students <br /> Have To Say</>,
+    pre_title: 'Cảm nghĩ của học viên',
+    title: <>Cảm nghĩ của học viên <br /> sau khi hoàn thành khóa học</>,
     testimonials: [
         {
             ratings: [1, 2, 3, 4, 5],

@@ -12,7 +12,7 @@ const CourseArea = ( { name } ) => {
                     <div className="container">
                         <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" 
                         data-sal-duration="800">
-                            <h2 className="title">My Popular Courses</h2>
+                            <h2 className="title">My Một số công việc phổ biến</h2>
                         </div>
                         
                         <div className="row g-5">

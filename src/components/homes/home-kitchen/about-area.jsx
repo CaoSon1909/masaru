@@ -55,7 +55,7 @@ const AboutArea = () => {
                     <div className="col-lg-6" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                         <div className="about-content">
                             <div className="section-title section-left">
-                                <span className="pre-title">About Us</span>
+                                <span className="pre-title">Về chúng tôi - MASARU</span>
                                 <h2 className="title">Welcome To Professional Kitchen Coach Courses</h2>
                                 <span className="shape-line">
                                     <i className="icon-19"></i>

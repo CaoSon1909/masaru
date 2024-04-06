@@ -12,16 +12,16 @@ const CtaArea = () => {
                         <div className="home-one-cta edu-cta-box bg-image">
                             <div className="inner">
                                 <div className="content text-md-end">
-                                    <span className="subtitle">Get In Touch:</span>
+                                    <span className="subtitle">Liên hệ với chúng tôi:</span>
                                     <h3 className="title">
-                                        <a href="mailto:info@edublink">info@edublink</a>
+                                        <a href="mailto:info@edublink">admin@masaruhr.vn</a>
                                     </h3>
                                 </div>
                                 <div className="sparator">
-                                    <span>or</span>
+                                    <span>Hoặc</span>
                                 </div>
                                 <div className="content">
-                                    <span className="subtitle">Call Us Via:</span>
+                                    <span className="subtitle">Gọi điện tới số hotline:</span>
                                     <h3 className="title">
                                         <a href="tel:+011235641231">+01 123 5641 231</a>
                                     </h3>

@@ -40,7 +40,7 @@ const TeamArea = ({ team }) => {
                                             <i className="icon-23"></i>
                                             <i className="icon-23"></i>
                                         </div>
-                                        <span className="rating-count">(720 Rating)</span>
+                                        <span className="rating-count">(720 ⭐)</span>
                                     </li>
                                 </ul>
                             </div>

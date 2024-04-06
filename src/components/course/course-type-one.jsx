@@ -70,7 +70,7 @@ const CourseTypeOne = ({ data, classes, image_location_path='01' }) => {
                             <i className="icon-23"></i>
                             <i className="icon-23"></i>
                         </div>
-                        <span className="rating-count">({data.rating} /{data.rating_count} Rating)</span>
+                        <span className="rating-count">({data.rating} /{data.rating_count} ⭐)</span>
                     </div>
                     <div className="course-price">${data.course_price}</div>
                     <ul className="course-meta">
@@ -103,7 +103,7 @@ const CourseTypeOne = ({ data, classes, image_location_path='01' }) => {
                             <i className="icon-23"></i>
                             <i className="icon-23"></i>
                         </div>
-                        <span className="rating-count">({data.rating} /{data.rating_count} Rating)</span>
+                        <span className="rating-count">({data.rating} /{data.rating_count} ⭐)</span>
                     </div>
                     <div className="course-price">${data.course_price}</div>
                     <p>{data.short_desc}</p>
@@ -112,7 +112,7 @@ const CourseTypeOne = ({ data, classes, image_location_path='01' }) => {
                         <li><i className="icon-25"></i>{data.student} Students</li>
                     </ul>
                     <a onClick={() => handleAddToCart(data)} className="edu-btn btn-secondary btn-small" style={{ cursor: 'pointer' }}> 
-                        {cartCourses.some(item => item.id === data.id) ? 'Added to cart' : 'Add to cart'} 
+                        {cartCourses.some(item => item.id === data.id) ? 'Tiếp tục thêm vào giỏ hàng' : 'Thêm vào giỏ hàng'} 
                         <i className="icon-4"></i>
                     </a>
                 </div>

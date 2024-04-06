@@ -38,7 +38,7 @@ const SingleWishlist = ({ item }) => {
             <td className="product-status" data-title="Stock"> In Stock</td>
             <td className="product-add-cart" onClick={() => handleAddToCart(item)}>
                 <a style={{ cursor: 'pointer' }} className="edu-btn btn-medium">
-                    {cartCourses.some(course => course.id === item.id) ? 'Added to cart' : 'Add to cart'}
+                    {cartCourses.some(course => course.id === item.id) ? 'Tiếp tục thêm vào giỏ hàng' : 'Thêm vào giỏ hàng'}
                 </a>
             </td>
         </tr>

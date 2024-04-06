@@ -2,10 +2,10 @@ import React from 'react';
 import Counter from '../../common/counter';
 
 const counter_data = [
-    {color:'primary-color',number:45.2,text:'K',title:'Student Enrolled',decimal: 1},
-    {color:'secondary-color',number:32.4,text:'K',title:'Class Completed',decimal: 1},
-    {color:'extra05-color',number:354,text:'+',title:'Top Instructors'},
-    {color:'extra02-color',number:100,text:'%',title:'Satisfaction Rate'},
+    {color:'primary-color',number:45.2,text:'K',title:'Học viên đã tham gia',decimal: 1},
+    {color:'secondary-color',number:32.4,text:'K',title:'Khóa học đã hoàn thành',decimal: 1},
+    {color:'extra05-color',number:354,text:'+',title:'TOP những giảng viên giàu kinh nghiệm'},
+    {color:'extra02-color',number:100,text:'%',title:'Được cấp chứng chỉ'},
 ];
 
 const CounterBox = () => {

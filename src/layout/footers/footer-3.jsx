@@ -6,27 +6,27 @@ const widgets = [
     {
         col: '3',
         class: 'explore-widget',
-        widget_title: 'Online Platform',
+        widget_title: 'Nền tảng học trực tuyến',
         footer_links: [
-            { link: 'about-1', title: 'About' },
-            { link: 'course-style-1', title: 'Courses' },
-            { link: 'team-1', title: 'Instructor' },
-            { link: 'event-grid', title: 'Events' },
-            { link: 'team-details', title: 'Instructor Profile' },
-            { link: 'purchase-guide', title: 'Purchase Guide' }
+            { link: 'about-1', title: 'Về chúng tôi' },
+            { link: 'course-style-1', title: 'Khóa học' },
+            { link: 'team-1', title: 'Đội ngũ giảng viên' },
+            { link: 'event-grid', title: 'Sự kiện' },
+            { link: 'team-details', title: 'Hồ sơ giảng viên' },
+            { link: 'purchase-guide', title: 'Hướng dẫn mua hàng' }
         ]
     },
     {
         col: '2',
         class: 'quick-link-widget',
-        widget_title: 'Links',
+        widget_title: 'Liên kết',
         footer_links: [
-            { link: 'contact-us', title: 'Contact Us' },
-            { link: 'gallery-grid', title: 'Gallery' },
-            { link: 'blog-standard', title: 'News & Articles' },
-            { link: 'faq', title: "FAQ's" },
-            { link: 'sign-in', title: 'Sign In/Registration' },
-            { link: 'coming-soon', title: 'Coming Soon' }
+            { link: 'contact-us', title: 'Liên hệ chúng tôi' },
+            { link: 'gallery-grid', title: 'Kho ảnh' },
+            { link: 'blog-standard', title: 'Tin tức và bài viết' },
+            { link: 'faq', title: "FAQ" },
+            { link: 'sign-in', title: 'Đăng nhập/Đăng ký' },
+            { link: 'coming-soon', title: 'Sắp có' }
         ]
     }
 ]
@@ -70,13 +70,13 @@ const FooterThree = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="edu-footer-widget">
-                            <h6 className="widget-title">Contacts</h6>
+                            <h6 className="widget-title">Liên hệ</h6>
                                 <div className="inner">
                                     <p className="description">Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor dolore.</p>
                                     <div className="widget-information">
                                         <ul className="information-list">
-                                            <li><span>Add:</span>70-80 Upper St Norwich NR2</li>
-                                            <li><span>Call:</span><a href="tel:+011235641231">+01 123 5641 231</a></li>
+                                            <li><span>Địa chỉ:</span>70-80 Upper St Norwich NR2</li>
+                                            <li><span>SĐT:</span><a href="tel:+011235641231">+01 123 5641 231</a></li>
                                             <li><span>Email:</span><a href="mailto:info@edublink.com" target="_blank" rel="noreferrer">info@edublink.com</a></li>
                                         </ul>
                                     </div>

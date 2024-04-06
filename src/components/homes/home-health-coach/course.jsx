@@ -10,7 +10,7 @@ const Course = () => {
                 <ul>
                     <li>
                         <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                            <span className="pre-title">Popular Courses</span>
+                            <span className="pre-title">Một số công việc phổ biến</span>
                             <h2 className="title">Find The Course That’s Right for You.</h2>
                             <span className="shape-line"><i className="icon-19"></i></span>
                         </div>

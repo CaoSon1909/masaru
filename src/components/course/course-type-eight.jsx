@@ -84,7 +84,7 @@ const CourseTypeEight = ({ data, classes }) => {
                             <i className="icon-23"></i>
                         </div>
                         <span className="rating-count">
-                            ({data.rating} /{data.rating_count}{" "} Rating)
+                            ({data.rating} /{data.rating_count}{" "} ⭐)
                         </span>
                     </div>
 
@@ -149,8 +149,8 @@ const CourseTypeEight = ({ data, classes }) => {
                                     (course) =>
                                     course.id === data.id
                                 )
-                                ? "Added to cart"
-                                : "Add to cart"
+                                ? "Tiếp tục thêm vào giỏ hàng"
+                                : "Thêm vào giỏ hàng"
                             }
                         </a>
                         <button onClick={() => handleWishlist(data)} style={{ cursor: "pointer" }} className={`btn-outline-dark wishlist-btn ${isWishlistSelected ? 'active' : ''}`}><i className="icon-22"></i></button>

@@ -41,7 +41,7 @@ const About = () => {
                     <div className="col-lg-6">
                         <div className="about-content">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                <span className="pre-title">About Us</span>
+                                <span className="pre-title">Về chúng tôi - MASARU</span>
                                 <h2 className="title">Individual <span className="color-secondary">Nutrition</span> Counseling & Coaching</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                                 <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.</p>

@@ -15,7 +15,7 @@ const index = () => {
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
                 <Header no_top_bar={true} />
-                <Breadcrumb title={'A Large Range of Course Learning Paths'} current_page="About Us 2" />
+                <Breadcrumb title={'A Large Range of Course Learning Paths'} current_page="Về chúng tôi - MASARU 2" />
                 <WhyChose/>
                 <VideoArea about_p_2={true}/>
                 <BrandArea about_p_2={true}/>

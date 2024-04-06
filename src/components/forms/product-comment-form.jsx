@@ -4,7 +4,7 @@ const ProductCommentForm = () => {
     return (
         <form className="comment-form">
             <div className="review-rating">
-                <h6 className="title">Your Rating</h6>
+                <h6 className="title">Your ⭐</h6>
                 <div className="rating">
                     <i className="icon-star-empty"></i>
                     <i className="icon-star-empty"></i>

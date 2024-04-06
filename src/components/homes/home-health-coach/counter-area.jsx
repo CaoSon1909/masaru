@@ -6,14 +6,14 @@ const data = [
         icon: 'icon-77',
         count: 29.3,
         text: 'K',
-        title: 'Student Enrolled',
+        title: 'Học viên đã tham gia',
         decimal: 1
     },
     {
         icon: 'icon-78',
         count: 32.4,
         text: 'K',
-        title: 'Class Completed',
+        title: 'Khóa học đã hoàn thành',
         decimal: 1,
         extraClass: 'icon-flower'
     },
@@ -21,13 +21,13 @@ const data = [
         icon: 'icon-79',
         count: 100,
         text: '%',
-        title: 'Satisfaction Rate'
+        title: 'Được cấp chứng chỉ'
     },
     {
         icon: 'icon-80',
         count: 354,
         text: '%',
-        title: 'Top Instructors'
+        title: 'TOP những giảng viên giàu kinh nghiệm'
     }
 ]
 

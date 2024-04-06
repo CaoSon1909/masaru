@@ -11,8 +11,8 @@ const Courses = () => {
         <div className="home-four-course edu-course-area course-area-4 gap-tb-text bg-image">
             <div className="container edublink-animated-shape">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <span className="pre-title">Popular Courses</span>
-                    <h2 className="title">Pick A Course To Get Started</h2>
+                    <span className="pre-title">Một số công việc phổ biến</span>
+                    <h2 className="title">Nhiều công việc với mức thu nhập cao</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
                 </div>
 
@@ -28,7 +28,7 @@ const Courses = () => {
                 
                 <div className="course-view-all" data-sal-delay="150" data-sal="slide-up" data-sal-duration="1200">
                     <Link href="/course-style-1">
-                        <a className="edu-btn">Browse more courses <i className="icon-4"></i></a>
+                        <a className="edu-btn">Xem thêm nhiều công việc khác <i className="icon-4"></i></a>
                     </Link>
                 </div>
                 <ul className="shape-group">

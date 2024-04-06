@@ -71,7 +71,7 @@ const AboutArea = () => {
                     <div className="col-lg-5">
                         <div className="about-content">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                <span className="pre-title">About Us</span>
+                                <span className="pre-title">Về chúng tôi - MASARU</span>
                                 <h2 className="title">Over 10 Years in <span className="color-secondary">Distant learning</span> for Skill Development</h2>
                                 <span className="shape-line">
                                     <i className="icon-19"></i>

@@ -14,6 +14,9 @@ import HybridDistanceProgramsTwo from "./hybrid-distance-programs-2";
 import CertificateTwo from "./certificate-2";
 import UserTwo from "./user-2";
 import Books from "./books";
+import Partner from "./partner";
+import University from "./university";
+import Flight from "./flight";
 
 export {
     OnlineClass,
@@ -31,5 +34,8 @@ export {
     HybridDistanceProgramsTwo,
     CertificateTwo,
     UserTwo,
-    Books
+    Books,
+    Partner,
+    University,
+    Flight
 }

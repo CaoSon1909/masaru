@@ -39,7 +39,7 @@ const CommentFormCourse = () => {
                 </div>
 
                 <div className="form-group col-12">
-                    <button type="submit" className="edu-btn submit-btn">Submit Review <i className="icon-4"></i></button>
+                    <button type="submit" className="edu-btn submit-btn">Gửi đánh giá <i className="icon-4"></i></button>
                 </div>
             </div>
         </form>

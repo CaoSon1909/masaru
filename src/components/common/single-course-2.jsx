@@ -72,7 +72,7 @@ const SingleCourseTwo = ({ course }) => {
                                 <i className="icon-23"></i>
                                 <i className="icon-23"></i>
                             </div>
-                            <span className="rating-count">({rating} /{rating_count} Rating)</span>
+                            <span className="rating-count">({rating} /{rating_count} ⭐)</span>
                         </div>
 
                         <div className="course-price">${course_price}</div>
@@ -110,7 +110,7 @@ const SingleCourseTwo = ({ course }) => {
                                 <i className="icon-23"></i>
                                 <i className="icon-23"></i>
                             </div>
-                            <span className="rating-count">({rating} /{rating_count} Rating)</span>
+                            <span className="rating-count">({rating} /{rating_count} ⭐)</span>
                         </div>
 
                         <div className="course-price">${course_price}</div>
@@ -124,7 +124,7 @@ const SingleCourseTwo = ({ course }) => {
 
                         <a onClick={() => handleAddToCart(course)} className="edu-btn btn-secondary btn-small"
                         style={{ cursor: 'pointer' }}> 
-                            {cartCourses.some(item => item.id === id) ? 'Added to cart' : 'Add to cart'} 
+                            {cartCourses.some(item => item.id === id) ? 'Tiếp tục thêm vào giỏ hàng' : 'Thêm vào giỏ hàng'} 
                             <i className="icon-4"></i>
                         </a>
                     </div>

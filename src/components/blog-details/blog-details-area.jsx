@@ -135,7 +135,7 @@ const BlogDetailsArea = ({blog}) => {
                                 <div className="col-lg-6">
                                     <div className="blog-pagination-list next-post">
                                         <a href="#">
-                                            <span>Qualification for Students Satisfaction Rate</span>
+                                            <span>Qualification for Students Được cấp chứng chỉ</span>
                                             <i className="icon-east"></i>
                                         </a>
                                     </div>

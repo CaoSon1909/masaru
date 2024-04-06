@@ -3,7 +3,7 @@ const event_data = [
     id: 1,
     img: '/assets/images/event/event-01.jpg',
     time:'08:00AM-10:00PM',
-    title: 'Learn English in Ease',
+    title: 'Learn Tiếng Việt in Ease',
     date: "SEP 30 2022",
     sm_desc: 'Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor incididunt labore dolore magna.',
     delay:'100',

@@ -7,7 +7,7 @@ const counter_data = [
         icon: 'icon-48',
         count: 29.3,
         text: 'K',
-        title: 'Student Enrolled',
+        title: 'Học viên đã tham gia',
         decimal: 1
     },
     {
@@ -15,7 +15,7 @@ const counter_data = [
         icon: 'icon-47',
         count: 32.4,
         text: 'K',
-        title: 'Class Completed',
+        title: 'Khóa học đã hoàn thành',
         decimal: 1
     },
     {
@@ -23,14 +23,14 @@ const counter_data = [
         icon: 'icon-49',
         count: 100,
         text: '%',
-        title: 'Satisfaction Rate'
+        title: 'Được cấp chứng chỉ'
     },
     {
         color: 'extra05-color',
         icon: 'icon-50',
         count: 354,
         text: '+',
-        title: 'Top Instructors'
+        title: 'TOP những giảng viên giàu kinh nghiệm'
     }
 ];
 

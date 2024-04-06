@@ -1,67 +1,62 @@
 import Link from 'next/link';
 
 const category_contents = {
-    title: 'Top Categories',
-    text: 'Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore',
+    title: 'Một số ngành nghề đang thiếu nhân lực tại Nhật Bản',
+    text: 'Luôn cập nhật danh sách theo từng năm',
     category_items: [
-        {
-            delay: '50',
-            color: 'color-primary-style',
-            icon: 'icon-9',
-            title: 'Business Management'
-        },
         {
             delay: '100',
             color: 'color-secondary-style',
-            icon: 'icon-10 art-design',
-            title: 'Arts & Design'
-        },
-        {
-            delay: '150',
-            color: 'color-extra01-style',
-            icon: 'icon-11 personal-development',
-            title: 'Personal Development'
+            icon: 'ri-sun-foggy-fill',
+            title: 'Nông nghiệp'
         },
         {
             delay: '50',
             color: 'color-tertiary-style',
-            icon: 'icon-12 health-fitness',
-            title: 'Health & Fitness'
+            icon:  'ri-cake-3-line',
+            title: 'Chế biến thực phẩm'
         },
         {
             delay: '100',
             color: 'color-extra02-style',
-            icon: 'icon-13 data-science',
-            title: 'Data Science'
+            icon: 'ri-shirt-line',
+            title: 'Dệt may mặc'
         },
         {
             delay: '150',
             color: 'color-extra03-style',
-            icon: 'icon-14',
-            title: 'Marketing'
+            icon: 'ri-medal-2-line',
+            title: 'Thực tập sinh kỹ năng'
         },
         {
             delay: '50',
             color: 'color-extra04-style',
-            icon: 'icon-15',
-            title: 'Business & Finance'
+            icon: 'ri-heart-pulse-line',
+            title: 'Y tế - Sức khỏe'
         },
         {
             delay: '100',
             color: 'color-extra05-style',
-            icon: 'icon-16 computer-science',
-            title: 'Computer Science'
+            icon: 'ri-pantone-line',
+            title: 'Vi mạch - Bán dẫn'
+        },
+        {
+            delay: '150',
+            color: 'color-extra01-style',
+            icon: 'ri-code-box-line',
+            title: 'Công nghệ thông tin'
         },
         {
             delay: '150',
             color: 'color-extra06-style',
-            icon: 'icon-17 video-photography',
-            title: 'Video & Photography'
+            icon: 'ri-contrast-drop-2-line',
+            title: 'Khai thác khoáng sản'
         }
     ]
 }
 
 const { title, text, category_items } = category_contents;
+
 
 const TopCategories = () => {
     return (

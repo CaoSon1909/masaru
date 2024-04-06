@@ -13,7 +13,7 @@ const index = () => {
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
                 <HeaderTwo style_3={true} no_topBar={true} />
-                <BreadcrumbTwo subtitle="About Us 03" />
+                <BreadcrumbTwo subtitle="Về chúng tôi - MASARU 03" />
                 <AboutUsArea/>
                 <CounterArea about_p_3={true} />
                 <WhyChose/>

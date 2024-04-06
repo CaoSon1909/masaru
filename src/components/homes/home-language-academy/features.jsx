@@ -25,7 +25,7 @@ const features = () => {
                             <img className="svgInject" src="/assets/images/svg-icons/instructor.svg" alt="animated icon" />
                         </div>
                         <div className="content">
-                            <h5 className="title">Top Instructors</h5>
+                            <h5 className="title">TOP những giảng viên giàu kinh nghiệm</h5>
                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p>
                         </div>
                     </div>

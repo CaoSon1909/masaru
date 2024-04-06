@@ -158,7 +158,7 @@ const CourseSidebarTwo = ({ course_items }) => {
                     orientation="horizontal"
                     onChange={(val) => handlePriceChange(val)}
                 />
-                <div className='filter-price'>Price: <span>${minPrice}</span> <span>-</span> <span>${price}</span></div>
+                <div className='filter-price'>Giá tiền: <span>${minPrice}</span> <span>-</span> <span>${price}</span></div>
             </div>
             
             <div className="edu-course-widget">

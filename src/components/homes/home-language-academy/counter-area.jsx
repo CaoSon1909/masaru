@@ -6,27 +6,27 @@ const counter_data = [
         color: 'primary-color',
         count: 29.3,
         text: 'K',
-        title: 'Student Enrolled',
+        title: 'Học viên đã tham gia',
         decimal: 1
     },
     {
         color: 'secondary-color',
         count: 32.4,
         text: 'K',
-        title: 'Class Completed',
+        title: 'Khóa học đã hoàn thành',
         decimal: 1
     },
     {
         color: 'extra02-color',
         count: 100,
         text: '%',
-        title: 'Satisfaction Rate'
+        title: 'Được cấp chứng chỉ'
     },
     {
         color: 'extra05-color',
         count: 354,
         text: '%',
-        title: 'Top Instructors'
+        title: 'TOP những giảng viên giàu kinh nghiệm'
     }
 ]
 

@@ -10,8 +10,8 @@ const TeamArea = ({ about_p_2, about_p_3 }) => {
         <div className={`edu-team-area team-area-${about_p_2 ? '6' : '3'} edu-section-gap ${about_p_3 ? 'z-10' : ''}`}>
             <div className="container">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <span className="pre-title">Instructors</span>
-                    <h2 className="title">Course Instructors</h2>
+                <span className="pre-title">Đội ngũ giảng viên</span>
+                    <h2 className="title">TOP những giảng viên giàu kinh nghiệm</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
                 </div>
 

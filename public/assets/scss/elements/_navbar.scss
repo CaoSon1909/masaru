@@ -1,0 +1,33 @@
+.nav-pills > li > a.active {
+    background-color:  #1ab69d !important;
+    border: 3px solid #31b978;    
+    height: 30px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-pills {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#navbar-example2 {
+    width: 100px;
+    height: max-content;
+    margin-top: 20%;
+    padding: 0;
+    background-color: transparent !important;
+}
+
+// .navbar-toggler{
+    // border-radius: 50%;
+// }
+
+// .navbar-toggler-icon {
+//     background-image: url("https://w.ladicdn.com/s500x450/638602896bb94b00114a6fc5/masaru-07-20240205135529-ws7a5.png");
+//  }

@@ -12,8 +12,8 @@ const CoursesArea = () => {
         <div className="edu-course-area course-area-7">
             <div className="container edublink-animated-shape">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <span className="pre-title pre-textsecondary">Popular Courses</span>
-                    <h2 className="title">Pick A Course To Get Started</h2>
+                    <span className="pre-title pre-textsecondary">Một số công việc phổ biến</span>
+                    <h2 className="title">Nhiều công việc với mức thu nhập cao</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
                 </div>
                 <div className="row g-5">

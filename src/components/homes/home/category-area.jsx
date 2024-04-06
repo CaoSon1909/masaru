@@ -1,10 +1,10 @@
-import { Certificate, Instructor, OnlineClass, User } from '../../../svg';
+import { Certificate, Instructor, OnlineClass, User, Partner, University, Flight } from '../../../svg';
 
 const category_contents = [
-  { icon: <OnlineClass/>, title: '3020', subtitle: 'Online Courses' },
-  { icon: <Instructor/>, title: 'Top', subtitle: 'Instructors' },
-  { icon: <Certificate/>, title: 'Online', subtitle: 'Certifications' },
-  { icon: <User/>, title: '6000', subtitle: 'Members' },
+    {icon: <i className="icon-15"></i>, title: '500', subtitle: 'Đối tác tại Nhật'},
+    {icon: <i className="icon-15"></i>, title: '3750', subtitle: 'Nhân sự đã chuyển giao'},
+    {icon: <i className="icon-15"></i>, title: '500', subtitle: 'Liên kết trường Đại học'},
+    {icon: <i className="icon-15"></i>, title: '11.000', subtitle: 'Thực tập sinh xuất cảnh'},
 ]
 
 const CategoryArea = () => {

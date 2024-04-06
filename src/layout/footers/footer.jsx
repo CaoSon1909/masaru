@@ -14,27 +14,27 @@ const footer_contents = {
         {
             col: '3',
             class: 'explore-widget',
-            widget_title: 'Online Platform',
+            widget_title: 'Nền tảng học trực tuyến',
             footer_links: [
-                { link: 'about-1', title: 'About' },
-                { link: 'course-style-1', title: 'Courses' },
-                { link: 'team-1', title: 'Instructor' },
-                { link: 'event-grid', title: 'Events' },
-                { link: 'team-details', title: 'Instructor Profile' },
-                { link: 'purchase-guide', title: 'Purchase Guide' }
+                { link: 'about-1', title: 'Về chúng tôi' },
+                { link: 'course-style-1', title: 'Khóa học' },
+                { link: 'team-1', title: 'Đội ngũ giảng viên' },
+                { link: 'event-grid', title: 'Sự kiện' },
+                { link: 'team-details', title: 'Thông tin giảng viên' },
+                { link: 'purchase-guide', title: 'Hướng dẫn mua hàng' }
             ]
         },
         {
             col: '2',
             class: 'quick-link-widget',
-            widget_title: 'Links',
+            widget_title: 'Liên kết',
             footer_links: [
-                { link: 'contact-us', title: 'Contact Us' },
-                { link: 'gallery-grid', title: 'Gallery' },
-                { link: 'blog-standard', title: 'News & Articles' },
-                { link: 'faq', title: "FAQ's" },
-                { link: 'sign-in', title: 'Sign In/Registration' },
-                { link: 'coming-soon', title: 'Coming Soon' }
+                { link: 'contact-us', title: 'Liên hệ chúng tôi' },
+                { link: 'gallery-grid', title: 'Kho ảnh' },
+                { link: 'blog-standard', title: 'Tin tức và bài viết' },
+                { link: 'faq', title: "FAQ" },
+                { link: 'sign-in', title: 'Đăng nhập/Đăng ký' },
+                { link: 'coming-soon', title: 'Sắp có' }
             ]
         }
     ]
@@ -71,8 +71,8 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                 <p className="description">{desc}</p>
                                 <div className="widget-information">
                                     <ul className="information-list">
-                                        <li><span>Add:</span>{add}</li>
-                                        <li><span>Call:</span><a href="tel:+011235641231">{call}</a></li>
+                                        <li><span>Địa chỉ:</span>{add}</li>
+                                        <li><span>SĐT:</span><a href="tel:+011235641231">{call}</a></li>
                                         <li><span>Email:</span><a href="mailto:info@edublink.com" rel="noreferrer" target="_blank">{email}</a></li>
                                     </ul>
                                 </div>
@@ -94,12 +94,12 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
 
                         <div className="col-lg-4 col-md-6">
                             <div className="edu-footer-widget">
-                                <h4 className="widget-title">Contacts</h4>
+                                <h4 className="widget-title">Liên hệ</h4>
                                 <div className="inner">
-                                    <p className="description">Enter your email address to register to our newsletter subscription</p>
+                                    <p className="description">Nhập email để nhận được những thông tin ưu đãi mới nhất từ Masaru</p>
                                     <div className="input-group footer-subscription-form">
-                                        <input type="email" className="form-control" placeholder="Your email" />
-                                        <button className={`edu-btn ${dark_bg && !home_4?'btn-secondary':''} btn-medium`} type="button">Subscribe <i className="icon-4"></i></button>
+                                        <input type="email" className="form-control" placeholder="Email của bạn" />
+                                        <button className={`edu-btn ${dark_bg && !home_4?'btn-secondary':''} btn-medium`} type="button">Đăng ký <i className="icon-4"></i></button>
                                     </div>
                                     <ul className="social-share icon-transparent">
                                         <FooterSocial/>

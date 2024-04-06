@@ -8,12 +8,12 @@ const footer_contents = {
     desc: 'Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.',
     add: '70-80 Upper St Norwich NR2',
     call: '+01 123 5641 231',
-    email: 'info@edublink.com',
+    email: 'admin@masaruhr.vn',
     widgets: [
         {
             col: '3',
             class: 'explore-widget',
-            widget_title: 'Online Platform',
+            widget_title: 'Nền tảng học trực tuyến',
             footer_links: [
                 { link: 'about-1', title: 'About' },
                 { link: 'course-style-1', title: 'Courses' },
@@ -26,7 +26,7 @@ const footer_contents = {
         {
             col: '2',
             class: 'quick-link-widget',
-            widget_title: 'Links',
+            widget_title: 'Liên kết',
             footer_links: [
                 { link: 'contact-us', title: 'Contact Us' },
                 { link: 'gallery-grid', title: 'Gallery' },
@@ -50,13 +50,13 @@ const FooterTwo = () => {
                     <div className="row g-5">
                         <div className="col-lg-3 col-md-6">
                             <div className="edu-footer-widget">
-                                <h4 className="widget-title">Address</h4>
+                                <h4 className="widget-title">Địa chỉ</h4>
                                 <div className="inner">
                                     <p className="description">{desc}</p>
                                     <div className="widget-information">
                                         <ul className="information-list">
-                                            <li><span>Add:</span>{add}</li>
-                                            <li><span>Call:</span><a href="tel:+011235641231">{call}</a></li>
+                                            <li><span>Địa chỉ:</span>{add}</li>
+                                            <li><span>SĐT:</span><a href="tel:+011235641231">{call}</a></li>
                                             <li><span>Email:</span><a href="mailto:info@edublink.com"
                                             target="_blank" rel="noreferrer">{email}</a></li>
                                         </ul>
@@ -81,12 +81,12 @@ const FooterTwo = () => {
                         ))}
                         <div className="col-lg-4 col-md-6">
                             <div className="edu-footer-widget">
-                                <h4 className="widget-title">Contacts</h4>
+                                <h4 className="widget-title">Liên hệ</h4>
                                 <div className="inner">
-                                    <p className="description">Enter your email address to register to our newsletter subscription</p>
+                                    <p className="description">Nhập địa chỉ email để nhận những thông tin ưu đãi mới nhất từ Masaru</p>
                                     <div className="input-group footer-subscription-form">
-                                        <input type="email" className="form-control" placeholder="Your email" />
-                                        <button className="edu-btn btn-medium" type="button">Subscribe <i className="icon-4"></i></button>
+                                        <input type="email" className="form-control" placeholder="Email của bạn" />
+                                        <button className="edu-btn btn-medium" type="button">Đăng ký <i className="icon-4"></i></button>
                                     </div>
                                     <ul className="social-share icon-transparent">
                                         <FooterSocial />
