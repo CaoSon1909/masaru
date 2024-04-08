@@ -25,6 +25,9 @@ const index = () => {
       <div className="sticky-header">
         <div id="main-wrapper" className="main-wrapper">
           <Navigation />
+          <Header />
+          <HeroArea />
+          <CategoryArea />
           <div
             data-bs-spy="scroll"
             data-bs-target="#navbar-example2"
@@ -33,32 +36,25 @@ const index = () => {
             tabindex="0"
             ref={scrollRef}
           >
-            <Header />
-            <section id="scrollspyHeading1" className="hero">
-              <HeroArea />
-            </section>
-            <section id="scrollspyHeading2" className="category">
-              <CategoryArea />
-            </section>
-            <section id="scrollspyHeading3" className="top-category">
+            <section id="top-categories">
               <TopCategories />
             </section>
-            <section id="scrollspyHeading4">
+            <section id="about">
               <AboutArea />
             </section>
-            <section id="scrollspyHeading5">
+            <section id="courses">
               <CourseArea />
             </section>
-            <section id="scrollspyHeading6">
+            <section id="counter-up">
               <CounterUpArea />
             </section>
-            <section id="scrollspyHeading7">
+            <section id="testimonials">
               <TestimonialArea />
             </section>
-            <section id="scrollspyHeading8">
-              <CtaArea />
-            </section>
-            <section id="scrollspyHeading9">
+            {/* <section id="scrollspyHeading8"> */}
+            {/* <CtaArea /> */}
+            {/* </section> */}
+            <section id="team">
               <TeamArea />
             </section>
             <section className="ad-banner" id="ad-banner">
@@ -67,7 +63,7 @@ const index = () => {
             <section className="brand" id="brand">
               <BrandArea />
             </section>
-            <section id="scrollspyHeading10">
+            <section id="blog">
               <BlogArea />
             </section>
             <section className="footer" id="footer">

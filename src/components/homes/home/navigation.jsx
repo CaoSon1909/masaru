@@ -19,53 +19,38 @@ const Navigation = () => {
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="nav nav-pills">
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading1">
-                  1
+                <a class="nav-link" href="#top-categories">
+                  Top Categories
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading2">
-                  2
+                <a class="nav-link" href="#about">
+                  About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading3">
-                  3
+                <a class="nav-link" href="#courses">
+                  Courses
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading4">
-                  4
+                <a class="nav-link" href="#counter-up">
+                  Counter
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading5">
-                  5
+                <a class="nav-link" href="#testimonials">
+                  Testimonials
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading6">
-                  6
+                <a class="nav-link" href="#team">
+                  Team
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading7">
-                  7
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading8">
-                  8
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading9">
-                  9
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading10">
-                  10
+                <a class="nav-link" href="#blog">
+                  Blog
                 </a>
               </li>
             </ul>
