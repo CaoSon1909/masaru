@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Footer, Header } from "../../../layout";
 import AboutArea from "./about-area";
 import AdBanner from "./ad-banner";
@@ -14,8 +14,11 @@ import TestimonialArea from "./testimonial-area";
 import TopCategories from "./top-categories";
 import Navigation from "./navigation";
 import Container from "./container";
+import useScrollSnap from "react-use-scroll-snap";
 
 const index = () => {
+  const scrollRef = useRef(null);
+  useScrollSnap({ ref: scrollRef, duration: 100, delay: 50 });
   return (
     // <Container />
     <div className="sticky-header-container">
@@ -28,6 +31,7 @@ const index = () => {
             data-bs-offset="0"
             class="scrollspy-example"
             tabindex="0"
+            ref={scrollRef}
           >
             <Header />
             <section id="scrollspyHeading1" className="hero">
