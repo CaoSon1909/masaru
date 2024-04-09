@@ -1,0 +1,94 @@
+.career-path{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    // border: 5px dotted red;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    @media #{$lg-layout-1} { 
+        /* STYLES HERE */
+    }
+    @media #{$smlg-device} { 
+        /* STYLES HERE */
+    }
+    @media #{$md-layout-1} { 
+        /* STYLES HERE */
+    }
+    @media #{$sm-layout} { 
+        /* STYLES HERE */
+    }
+    @media #{$large-mobile} { 
+        /* STYLES HERE */
+    }
+    @media #{$small-mobile} { 
+        /* STYLES HERE */
+    }
+    .masaru-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .masaru-student,  .qualified-employee, .qualified-engineer, .masaru-investment{
+        // border: 2px solid lime;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .content {
+            border: 5px solid #EE4A62;
+            border-radius: 15px;
+            text-align: center;
+            padding: 5px 5px 5px 5px;
+            width: 270px;
+            height: max-content;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+
+    .masaru-edu, .masaru-link, .masaru-hr {
+        width: 250px;
+        height: max-content;
+        border: 5px solid #EE4A62;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .image {
+            border: 2px dotted red;
+            height: 120px;
+            width: 120px;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .title-1 {
+                text-transform: uppercase;
+                color:#EE4A62;
+                font-weight: bold;
+                font-size: x-large;
+                margin-top: 2rem;
+                text-align: center;
+            }
+            .title-2 {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: medium;
+            }
+            .meta-data{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 27px;
+            }
+        }
+
+    }
+}

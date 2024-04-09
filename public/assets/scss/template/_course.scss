@@ -6,6 +6,8 @@
     position: relative;
     border-radius: 5px;
     transition: var(--transition);
+    height: max-content;
+    // width: max-content;
     &.course-style-1 {
         transition: var(--transition-2);
         .thumbnail {
@@ -19,6 +21,7 @@
         }
         .course-hover-content-wrapper {
             transition: var(--transition-2);
+             border-radius: 5px;
         }
         .course-hover-content {
             transition: var(--transition-2);
@@ -94,6 +97,7 @@
             display: inline-block;
         }
         .title {
+            height: 50px;
             margin-bottom: 8px;
             a {
                 overflow: hidden;
@@ -120,11 +124,11 @@
             }
         }
         .course-price {
-            font-size: 14px;
+            font-size: 13px;
             font-weight: var(--p-semi-bold);
             color: var(--color-secondary);
             font-family: var(--font-secondary);
-            margin-bottom: 14px;
+            // margin-bottom: 14px;
             transition: var(--transition);
             &.price-round {
                 font-size: 22px;
@@ -141,6 +145,7 @@
         .course-meta {
             @extend %liststyle;
             li {
+                // width: 150px;
                 display: inline-block;
                 font-size: 13px;
                 color: var(--color-heading);
@@ -733,7 +738,7 @@
         .hover-content-aside {
             top: 100%;
             left: 50%;
-            transform: translateY(0) translateX(-50%);
+            transform: translateY(-45%) translateX(10%);
             padding-top: 12px;
             z-index: 2;
             .content {
@@ -1322,6 +1327,7 @@
                 margin-bottom: 8px;
             }
             .title {
+                height: 50px;
                 a {
                     font-size: 18px;
                     font-weight: var(--p-bold);

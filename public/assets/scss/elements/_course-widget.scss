@@ -155,6 +155,14 @@
                         align-items: center;
                         font-family: var(--font-secondary);
                     }
+                    @media (min-width: 992px) and (max-width: 1710px) {
+                        .price {
+                            font-size: 20px;
+                            font-weight: var(--p-semi-bold);
+                            color: var(--color-secondary);
+                            transform: translateX(40%);
+                        }
+                    }
                     .price {
                         font-size: 20px;
                         font-weight: var(--p-semi-bold);

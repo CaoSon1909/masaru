@@ -15,61 +15,60 @@ import TopCategories from "./top-categories";
 import Navigation from "./navigation";
 import Container from "./container";
 import useScrollSnap from "react-use-scroll-snap";
+import CareerPath from "./career-path";
 
 const index = () => {
   const scrollRef = useRef(null);
   useScrollSnap({ ref: scrollRef, duration: 100, delay: 50 });
   return (
     // <Container />
-    <div className="sticky-header-container">
-      <div className="sticky-header">
-        <div id="main-wrapper" className="main-wrapper">
-          <Navigation />
-          <Header />
-          <HeroArea />
-          <CategoryArea />
-          <div
-            data-bs-spy="scroll"
-            data-bs-target="#navbar-example2"
-            data-bs-offset="0"
-            class="scrollspy-example"
-            tabindex="0"
-            ref={scrollRef}
-          >
-            <section id="top-categories">
+    <div className="sticky-header">
+      <div id="main-wrapper" className="main-wrapper">
+        <Navigation />
+        <Header />
+        <HeroArea />
+        <CategoryArea />
+        <div
+          data-bs-spy="scroll"
+          data-bs-target="#navbar-example2"
+          data-bs-offset="0"
+          class="scrollspy-example"
+          tabindex="0"
+          ref={scrollRef}
+        >
+          {/* <section id="top-categories">
               <TopCategories />
-            </section>
-            <section id="about">
-              <AboutArea />
-            </section>
-            <section id="courses">
-              <CourseArea />
-            </section>
-            <section id="counter-up">
-              <CounterUpArea />
-            </section>
-            <section id="testimonials">
-              <TestimonialArea />
-            </section>
-            {/* <section id="scrollspyHeading8"> */}
-            {/* <CtaArea /> */}
-            {/* </section> */}
-            <section id="team">
-              <TeamArea />
-            </section>
-            <section className="ad-banner" id="ad-banner">
-              <AdBanner />
-            </section>
-            <section className="brand" id="brand">
-              <BrandArea />
-            </section>
-            <section id="blog">
-              <BlogArea />
-            </section>
-            <section className="footer" id="footer">
-              <Footer />
-            </section>
-          </div>
+            </section> */}
+          <section id="courses">
+            <CourseArea isNested={false} />
+          </section>
+          <section id="about">
+            <AboutArea />
+          </section>
+          <section id="counter-up">
+            <CounterUpArea />
+          </section>
+          <section id="testimonials">
+            <TestimonialArea />
+          </section>
+          <section id="career-path">
+            <CareerPath />
+          </section>
+          <section id="team">
+            <TeamArea />
+          </section>
+          <section className="ad-banner" id="ad-banner">
+            <AdBanner />
+          </section>
+          <section className="brand" id="brand">
+            <BrandArea />
+          </section>
+          <section id="blog">
+            <BlogArea />
+          </section>
+          <section className="footer" id="footer">
+            <Footer />
+          </section>
         </div>
       </div>
     </div>

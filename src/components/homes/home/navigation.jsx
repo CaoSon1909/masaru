@@ -19,18 +19,13 @@ const Navigation = () => {
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="nav nav-pills">
               <li class="nav-item">
-                <a class="nav-link" href="#top-categories">
-                  Top Categories
-                </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#about">
-                  About
+                  Về chúng tôi
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#courses">
-                  Courses
+                  Đơn hàng đang tuyển
                 </a>
               </li>
               <li class="nav-item">
@@ -40,12 +35,12 @@ const Navigation = () => {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#testimonials">
-                  Testimonials
+                  Cảm nghĩ
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#team">
-                  Team
+                  Đội ngũ
                 </a>
               </li>
               <li class="nav-item">
