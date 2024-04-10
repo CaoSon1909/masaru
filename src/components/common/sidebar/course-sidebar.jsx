@@ -217,8 +217,8 @@ const CourseSidebar = ({ course_items }) => {
           onChange={(val) => handlePriceChange(val)}
         />
         <div className="filter-price">
-          Giá tiền: <span>${minPrice}</span> <span>-</span>{" "}
-          <span>${price}</span>
+          Giá tiền: <span>{minPrice} đ</span> <span>-</span>{" "}
+          <span>{price} đ</span>
         </div>
       </div>
 

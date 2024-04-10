@@ -90,7 +90,7 @@ export default function TestimonialArea() {
                   eiusmod tempor incididunt labore dolore magna aliquaenim ad
                   minim.
                 </p>
-                <a href="#" className="edu-btn btn-large">
+                <a href="/course-style-4" className="edu-btn btn-large">
                   Xem tất cả<i className="icon-4"></i>
                 </a>
               </div>

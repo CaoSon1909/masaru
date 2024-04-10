@@ -2,12 +2,13 @@ import React from "react";
 import useModal from "../../../hooks/use-modal";
 import { Books } from "../../../svg";
 import VideoModal from "../popup-modal/video-modal";
+import ContactUsForm from "../../forms/contact-us-form";
 
 const CourseDetailsSidebar = ({ course, details_2 = false }) => {
   const {
     img,
     certificate,
-    videoId,
+    videoId = "8ypRvNZhocU",
     course_price,
     instructor,
     duration,
@@ -95,9 +96,15 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
               </ul>
 
               <div className="read-more-btn">
-                <a href="#" className="edu-btn">
-                  Ứng tuyển <i className="icon-4"></i>
-                </a>
+                <button
+                  type="button"
+                  class="edu-btn btn-medium"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Ứng tuyển
+                  <i className="icon-4"></i>
+                </button>
               </div>
 
               <div className="share-area">
@@ -137,6 +144,35 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
         videoId={videoId}
       />
       {/* video modal end */}
+
+      {/* Start Contact Modal */}
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header" style={{ padding: "2rem" }}>
+              <h5 class="modal-title" id="exampleModalLabel">
+                Gửi thông tin của bạn
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body" style={{ padding: "3rem" }}>
+              <ContactUsForm />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End Contact Modal */}
     </>
   );
 };

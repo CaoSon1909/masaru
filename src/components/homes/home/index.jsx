@@ -24,7 +24,7 @@ const index = () => {
     // <Container />
     <div className="sticky-header">
       <div id="main-wrapper" className="main-wrapper">
-        <Navigation />
+        {/* <Navigation /> */}
         <Header />
         <HeroArea />
         <CategoryArea />
@@ -40,7 +40,7 @@ const index = () => {
               <TopCategories />
             </section> */}
           <section id="courses">
-            <CourseArea isNested={false} />
+            <CourseArea />
           </section>
           <section id="about">
             <AboutArea />

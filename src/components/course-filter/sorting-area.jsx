@@ -44,7 +44,7 @@ const SortingArea = ({
       <div className="sorting-left">
         {items ? (
           <h6 className="showing-text">
-            Hiển thị <span>{num}</span> of <span>{items.length}</span> đơn hàng
+            Hiển thị <span>{num}</span> của <span>{items.length}</span> đơn hàng
           </h6>
         ) : (
           <h6 className="showing-text">

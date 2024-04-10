@@ -143,7 +143,7 @@ const CourseTypeFive = ({ data, classes }) => {
           </ul>
 
           <div className="course-feature">
-            <h6 className="title">What You’ll Learn?</h6>
+            <h6 className="title">Phúc lợi</h6>
             <ul>
               {data.features.slice(0, 3).map((feature, featurekey) => (
                 <li key={featurekey}>{feature}</li>

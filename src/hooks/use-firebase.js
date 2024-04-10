@@ -4,14 +4,15 @@ import {
 } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
-import firebaseInitialization from "../firebase/firebase.init";
 import { add_user, sign_out, user_info } from "../redux/features/auth-slice";
+import { initializeApp } from "firebase/app";
+import firebaseConfig from "../firebase/firebase.config";
 
 // initialize firebase app
-firebaseInitialization();
+const app = initializeApp(firebaseConfig, "Masaru");
 
 // declare auth
-const auth = getAuth();
+const auth = getAuth(app);
 
 const useFirebase = () => {
     // dispatch
@@ -30,7 +31,7 @@ const useFirebase = () => {
                 email: user.user.email,
                 uid: user.user.uid
             }))
-            toast.success(`${name} register successfully`, {
+            toast.success(`Tài khoản ${name} đăng ký thành công`, {
                 position: 'top-left'
             })
         })
@@ -53,7 +54,7 @@ const useFirebase = () => {
                 email: email,
                 uid: uid
             }))
-                toast.success(`${name} login successfully`, {
+                toast.success(`${name} đăng nhập thành công`, {
                 position: 'top-left'
             })
         })
@@ -70,7 +71,7 @@ const useFirebase = () => {
     const resetPassword = (email) => {
         sendPasswordResetEmail(auth, email)
         .then(() => {
-            toast.success(`Password reset email sent!`, {
+            toast.success(`Đã gửi mật khẩu mới qua email!`, {
                 position: 'top-left'
             })
         })
@@ -87,7 +88,7 @@ const useFirebase = () => {
     const logout = () => {
         signOut(auth).then(() => {
         dispatch(sign_out())
-        toast.success(`Sign-out successful.`, {
+        toast.success(`Đăng xuất thành công!`, {
             position: 'top-left'
         })
         }).catch((error) => {

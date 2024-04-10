@@ -10,19 +10,9 @@ import { wishlistItems } from "../../redux/features/wishlist-slice";
 import useCartInfo from "../../hooks/use-cart-info";
 import OffCanvas from "../../components/common/sidebar/off-canvas";
 import Cart from "./component/cart";
+import ContactUsForm from "../../components/forms/contact-us-form";
 
-const categories = [
-  { link: "/course-style-1", title: "Thiết kế" },
-  { link: "/course-style-1", title: "Lập trình" },
-  { link: "/course-style-1", title: "Kiến trúc" },
-  { link: "/course-style-1", title: "Đời sống hàng ngày" },
-  { link: "/course-style-1", title: "Khoa học dữ liệu" },
-  { link: "/course-style-1", title: "Marketing" },
-  { link: "/course-style-1", title: "Âm nhạc" },
-  { link: "/course-style-1", title: "Nhiếp ảnh" },
-  { link: "/course-style-1", title: "Tài chính" },
-  { link: "/course-style-1", title: "Động lực" },
-];
+const categories = [{ link: "/course-style-1", title: "Đơn hàng đang tuyển" }];
 
 const Header = ({
   header_style,
@@ -35,6 +25,7 @@ const Header = ({
   const wishlists = useSelector(wishlistItems);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <>
@@ -152,12 +143,15 @@ const Header = ({
                     <Cart />
                   </li>
                   <li className="header-btn">
-                    <Link href="/contact-us">
-                      <a className="edu-btn btn-medium">
-                        Liên hệ nhận tư vấn
-                        <i className="icon-4"></i>
-                      </a>
-                    </Link>
+                    <button
+                      type="button"
+                      class="edu-btn btn-medium"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      Liên hệ nhận tư vấn
+                      <i className="icon-4"></i>
+                    </button>
                   </li>
                   <li className="mobile-menu-bar d-block d-xl-none">
                     <button
@@ -184,6 +178,34 @@ const Header = ({
       {/* sidebar start */}
       <OffCanvas isOpen={isOpen} setIsOpen={setIsOpen} />
       {/* sidebar end */}
+      {/* Start Contact Modal */}
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header" style={{ padding: "2rem" }}>
+              <h5 class="modal-title" id="exampleModalLabel">
+                Gửi thông tin của bạn
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body" style={{ padding: "3rem" }}>
+              <ContactUsForm />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End Contact Modal */}
     </>
   );
 };
