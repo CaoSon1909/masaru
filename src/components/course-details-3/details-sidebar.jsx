@@ -55,7 +55,12 @@ const DetailsSidebar = () => {
             </ul>
 
             <div className="read-more-btn">
-              <a href="#" className="edu-btn">
+              <a
+                href="https://forms.gle/PxkUndXB7ycaHgX47"
+                rel="noreferrer"
+                target="_blank"
+                class="edu-btn btn-medium"
+              >
                 Ứng tuyển <i className="icon-4"></i>
               </a>
             </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { course_data } from "../../data";
 import CourseSidebar from "../common/sidebar/course-sidebar";
@@ -10,13 +10,19 @@ const course_items = course_data.filter(
   (arr, index, self) =>
     index === self.findIndex((i) => i.img === arr.img && i.State === arr.State)
 );
-
+//search_value
 const CourseFourArea = () => {
   const [courses, setCourses] = useState(course_items);
   const [showing, setShowing] = useState(0);
   const { categories, instructors, levels, languages, price } = useSelector(
     (state) => state.filter
   );
+  const { allCourses } = useSelector((state) => state.search);
+  useEffect(() => {
+    if (allCourses.length != 0) {
+      setCourses(allCourses);
+    }
+  }, [allCourses]);
 
   let items = courses
     ?.filter((item1) =>
@@ -62,10 +68,9 @@ const CourseFourArea = () => {
               items={items}
             />
             {/* sorting area end */}
-
             <CourseItems
               itemsPerPage={6}
-              items={items.length == 0 ? course_items : items}
+              items={items.length != 0 ? items : courses}
               course_style="8"
               setShowing={setShowing}
             />

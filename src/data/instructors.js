@@ -7,10 +7,10 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Jane Seymour',
-        title:'UI Designer',
+        name:'Lê Hùng Cường',
+        title:'President',
         delay:'50',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        sm_text:"cuonglh@masaruhr.vn"
     },
     {
         id:2,
@@ -20,10 +20,10 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Edward Norton',
-        title:'Web Developer',
+        name:'Vũ Hoàng Đức',
+        title:'Vice President',
         delay:'100',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        sm_text:"ducvh@masaruhr.vn"
     },
     {
         id:3,
@@ -33,35 +33,35 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Penelope Cruz',
-        title:'Digital Marketer',
+        name:'Trần Quốc Hưng',
+        title:'Director',
         delay:'150',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        sm_text:"hungtq@masaruhr.vn"
     },
     {
         id:4,
-        img:'team-04.webp',
-        social_links:[
-            {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-            {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-            {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
-        ],
-        name:'John Travolta',
-        title:'Wordpress Expert',
-        delay:'200',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
-    },
-    {
-        id:5,
         img:'team-05.webp',
         social_links:[
             {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Susan White',
-        title:'Wordpress Expert',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        name:'Phạm Hoàng An',
+        title:'Chief Communications Officer',
+        sm_text:"anph@masaruhr.vn"
+    },
+    {
+        id:5,
+        img:'team-04.webp',
+        social_links:[
+            {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+            {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+            {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
+        ],
+        name:'Trần Ngọc Dũng',
+        title:'Board of Directors',
+        delay:'200',
+        sm_text:"dungtn@masaruhr.vn"
     },
     {
         id:6,

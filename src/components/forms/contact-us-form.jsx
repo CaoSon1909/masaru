@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { useForm, ValidationError } from "@formspree/react";
 
 const Result = () => {
   return (
@@ -15,6 +16,7 @@ const Result = () => {
 
 const ContactUsForm = () => {
   const [result, setResult] = useState(false);
+  const [state, handleSubmit] = useForm("xbjnpavb");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -45,7 +47,7 @@ const ContactUsForm = () => {
     <form
       className="rnt-contact-form rwt-dynamic-form"
       action=""
-      onSubmit={sendEmail}
+      onSubmit={handleSubmit}
     >
       <div className="row row--10">
         <div className="form-group col-12">
@@ -91,7 +93,7 @@ const ContactUsForm = () => {
             Gửi thông tin<i className="icon-4"></i>
           </button>
         </div>
-        {result ? (
+        {state.succeeded ? (
           <div className="form-group">
             <Result />
           </div>

@@ -143,15 +143,15 @@ const Header = ({
                     <Cart />
                   </li>
                   <li className="header-btn">
-                    <button
-                      type="button"
+                    <a
+                      href="https://forms.gle/PxkUndXB7ycaHgX47"
+                      rel="noreferrer"
+                      target="_blank"
                       class="edu-btn btn-medium"
-                      data-bs-toggle="modal"
-                      data-bs-target="#exampleModal"
                     >
                       Liên hệ nhận tư vấn
                       <i className="icon-4"></i>
-                    </button>
+                    </a>
                   </li>
                   <li className="mobile-menu-bar d-block d-xl-none">
                     <button

@@ -6,6 +6,7 @@ import {
   add_to_wishlist,
   wishlistItems,
 } from "../../redux/features/wishlist-slice";
+import { useRouter } from "next/router";
 
 const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
   const { cartCourses } = useSelector((state) => state.cart);
@@ -14,6 +15,7 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
   const isWishlistSelected = wishlists.find(
     (w) => Number(w.id) === Number(data.id)
   );
+  const router = useRouter();
 
   const handleWishlist = (course_item) => {
     if (wishlists.find((i) => i.id === course_item.id)) {
@@ -53,6 +55,11 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
         title: course.title,
       })
     );
+  };
+
+  //handle view detail
+  const handleViewDetail = (course) => {
+    router.push(`/course-details/${course.id}`);
   };
 
   return (
@@ -152,21 +159,21 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
               ({data.rating} /{data.rating_count} ⭐)
             </span>
           </div> */}
+          <p>{data.short_desc}</p>
           <div className="course-price">
             <span className="label">
               <i className="icon-60"></i> Mức lương: {data.course_price}{" "}
               VNĐ/Tháng
             </span>
           </div>
-          <p>{data.short_desc}</p>
           <ul className="course-meta">
             <li>
               <i className="icon-37"></i>
-              Thời gian làm việc: {data.lesson} H/ngày
+              Thời gian làm việc: {data.work_hour_per_day} H/ngày
             </li>
             <li>
               <i className="icon-25"></i>
-              Tăng ca: {data.student} VNĐ/H
+              Tăng ca: {data.overtime_salary} VNĐ/H
             </li>
             <li>
               <i className="icon-33"></i>
@@ -174,6 +181,13 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
             </li>
           </ul>
           <a
+            onClick={() => handleViewDetail(data)}
+            className="edu-btn btn-secondary btn-small"
+            style={{ cursor: "pointer" }}
+          >
+            Xem thông tin
+          </a>
+          {/* <a
             onClick={() => handleAddToCart(data)}
             className="edu-btn btn-secondary btn-small"
             style={{ cursor: "pointer" }}
@@ -182,7 +196,7 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
               ? "Tiếp tục thêm vào giỏ hàng"
               : "Thêm vào giỏ hàng"}
             <i className="icon-4"></i>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

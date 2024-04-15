@@ -13,7 +13,6 @@ const SortingArea = ({
   courses,
   course_list,
   items,
-  isNested,
 }) => {
   const dispatch = useDispatch();
 

@@ -35,7 +35,7 @@ const HeaderTopRight = () => {
         </a>
       </li>
       <li>
-        <a href="mailto:info@edublink.com" rel="noreferrer" target="_blank">
+        <a href="mailto:contact@masaruhr.vn" rel="noreferrer" target="_blank">
           <i className="icon-envelope"></i>Email: admin@masaruhr.vn
         </a>
       </li>

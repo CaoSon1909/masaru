@@ -51,12 +51,12 @@ const index = () => {
           <section id="testimonials">
             <TestimonialArea />
           </section>
-          <section id="career-path">
+          {/* <section id="career-path">
             <CareerPath />
-          </section>
-          <section id="team">
+          </section> */}
+          {/* <section id="team">
             <TeamArea />
-          </section>
+          </section> */}
           <section className="ad-banner" id="ad-banner">
             <AdBanner />
           </section>

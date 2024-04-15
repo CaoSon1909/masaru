@@ -6,6 +6,7 @@ import {
   add_to_wishlist,
   wishlistItems,
 } from "../../redux/features/wishlist-slice";
+import { useRouter } from "next/router";
 
 const CourseTypeFive = ({ data, classes }) => {
   const { cartCourses } = useSelector((state) => state.cart);
@@ -14,6 +15,7 @@ const CourseTypeFive = ({ data, classes }) => {
   const isWishlistSelected = wishlists.find(
     (w) => Number(w.id) === Number(data.id)
   );
+  const router = useRouter();
 
   const handleWishlist = (course_item) => {
     if (wishlists.find((i) => i.id === course_item.id)) {
@@ -53,6 +55,11 @@ const CourseTypeFive = ({ data, classes }) => {
         title: course.title,
       })
     );
+  };
+
+  //handle view detail
+  const handleViewDetail = (course) => {
+    router.push(`/course-details/${course.id}`);
   };
 
   return (
@@ -152,7 +159,7 @@ const CourseTypeFive = ({ data, classes }) => {
           </div>
 
           <div className="button-group">
-            <a
+            {/* <a
               onClick={() => handleAddToCart(data)}
               style={{ cursor: "pointer" }}
               className="edu-btn btn-medium"
@@ -160,6 +167,13 @@ const CourseTypeFive = ({ data, classes }) => {
               {cartCourses.some((course) => course.id === data.id)
                 ? "Tiếp tục thêm vào giỏ hàng"
                 : "Thêm vào giỏ hàng"}
+            </a> */}
+            <a
+              onClick={() => handleViewDetail(data)}
+              style={{ cursor: "pointer" }}
+              className="edu-btn btn-medium"
+            >
+              Xem thông tin
             </a>
             <button
               onClick={() => handleWishlist(data)}

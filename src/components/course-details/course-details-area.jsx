@@ -4,6 +4,8 @@ import CommentFormCourse from "../forms/comment-form-course";
 import SingleComment from "./single-comment";
 import SingleProgressbar from "./single-progressbar";
 import CourseArea from "../course-style-1/course-1-area";
+import { useDispatch } from "react-redux";
+import { remove_course } from "../../redux/features/search-slice";
 
 const CourseDetailsArea = ({ course }) => {
   const {
@@ -23,8 +25,13 @@ const CourseDetailsArea = ({ course }) => {
     rating_count,
   } = course || {};
 
+  const dispatch = useDispatch();
+
   const [loop, setLoop] = useState(false);
-  useEffect(() => setLoop(true), []);
+  useEffect(() => {
+    dispatch(remove_course(course));
+    setLoop(true);
+  }, []);
   return (
     <section className="edu-section-gap course-details-area">
       <div className="container">

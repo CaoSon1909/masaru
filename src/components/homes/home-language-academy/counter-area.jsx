@@ -1,56 +1,60 @@
-import React from 'react';
-import Counter from '../../common/counter';
+import React from "react";
+import Counter from "../../common/counter";
 
 const counter_data = [
-    {
-        color: 'primary-color',
-        count: 29.3,
-        text: 'K',
-        title: 'Học viên đã tham gia',
-        decimal: 1
-    },
-    {
-        color: 'secondary-color',
-        count: 32.4,
-        text: 'K',
-        title: 'Khóa học đã hoàn thành',
-        decimal: 1
-    },
-    {
-        color: 'extra02-color',
-        count: 100,
-        text: '%',
-        title: 'Được cấp chứng chỉ'
-    },
-    {
-        color: 'extra05-color',
-        count: 354,
-        text: '%',
-        title: 'TOP những giảng viên giàu kinh nghiệm'
-    }
-]
+  {
+    color: "primary-color",
+    count: 29.3,
+    text: "K",
+    title: "Học viên đã tham gia",
+    decimal: 1,
+  },
+  {
+    color: "secondary-color",
+    count: 32.4,
+    text: "K",
+    title: "Khóa học đã hoàn thành",
+    decimal: 1,
+  },
+  {
+    color: "extra02-color",
+    count: 100,
+    text: "%",
+    title: "Được cấp chứng chỉ",
+  },
+  {
+    color: "extra05-color",
+    count: 354,
+    text: "%",
+    title: "Đội ngũ thành lập Masaru",
+  },
+];
 
 const CounterArea = () => {
-    return (
-        <div className="counterup-area-12">
-            <div className="container">
-                <div className="row g-5">
-                    {counter_data.map((c, i) => (
-                        <div key={i} className="col-lg-3 col-sm-6">
-                            <div className="edu-counterup counterup-style-12">
-                                <h2 className={`counter-item count-number ${c.color}`}>
-                                    <span className="odometer">
-                                        <Counter number={parseFloat(c.count)} text={c.text} decimal={c.decimal} />
-                                    </span>
-                                </h2>
-                                <h6 className="title">{c.title}</h6>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+  return (
+    <div className="counterup-area-12">
+      <div className="container">
+        <div className="row g-5">
+          {counter_data.map((c, i) => (
+            <div key={i} className="col-lg-3 col-sm-6">
+              <div className="edu-counterup counterup-style-12">
+                <h2 className={`counter-item count-number ${c.color}`}>
+                  <span className="odometer">
+                    <Counter
+                      number={parseFloat(c.count)}
+                      text={c.text}
+                      decimal={c.decimal}
+                    />
+                  </span>
+                </h2>
+                <h6 className="title">{c.title}</h6>
+              </div>
             </div>
+          ))}
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
 export default CounterArea;
