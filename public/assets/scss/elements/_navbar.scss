@@ -23,26 +23,3 @@
         display: none;
     }
 }
-
-.nav-link {
-    width: 60px;
-    height: 60px;
-    // display: inline-block;
-    margin:0 5px;
-    color:orange;
-    filter: url('#goo');
-}
-
-.nav-link::before {
-    content: "";
-    display: block;
-    background:currentColor;
-    padding-top: 115%; /* 100%/cos(30)  */
-    clip-path: polygon(0% 25%,0% 75%,50% 100%,100% 75%,100% 25%,50% 0%);
-  }
-.nav-link:hover {
-    background-color: aqua;
-    clip-path: polygon(0% 25%,0% 75%,50% 100%,100% 75%,100% 25%,50% 0%);
-
-    
-}
