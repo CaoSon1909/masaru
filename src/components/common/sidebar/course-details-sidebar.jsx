@@ -166,8 +166,21 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body" style={{ padding: "3rem" }}>
-              <ContactUsForm />
+            <div
+              class="modal-body"
+              style={{ padding: "3rem", width: "max-content" }}
+            >
+              {/* <ContactUsForm /> */}
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSf9AexFVf8NIhB6AZYEogKUvnwD3F6872rmjzGfQa3VPcFnHA/viewform?embedded=true"
+                width="640"
+                height="851"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+              >
+                Đang tải…
+              </iframe>
             </div>
           </div>
         </div>

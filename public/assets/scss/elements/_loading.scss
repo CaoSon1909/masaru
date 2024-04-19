@@ -1,0 +1,52 @@
+.loading-screen {
+    position: fixed;
+    background-image: url("/assets/images/bg/background_image_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeOut 3s ease-in-out;
+  }
+
+  
+  .loading-logo {
+    // border: 7px solid #f3f3f3;
+    // border-top: 7px solid hsl(30, 90%, 68%);
+    // border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    animation: fadeOut 3s ease-in-out;
+  }
+
+  @keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  

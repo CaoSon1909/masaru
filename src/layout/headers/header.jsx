@@ -143,7 +143,16 @@ const Header = ({
                     <Cart />
                   </li>
                   <li className="header-btn">
-                    <a
+                    <button
+                      type="button"
+                      class="edu-btn btn-medium"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      Liên hệ nhận tư vấn
+                      <i className="icon-4"></i>
+                    </button>
+                    {/* <a
                       href="https://forms.gle/PxkUndXB7ycaHgX47"
                       rel="noreferrer"
                       target="_blank"
@@ -151,7 +160,7 @@ const Header = ({
                     >
                       Liên hệ nhận tư vấn
                       <i className="icon-4"></i>
-                    </a>
+                    </a> */}
                   </li>
                   <li className="mobile-menu-bar d-block d-xl-none">
                     <button
@@ -199,8 +208,21 @@ const Header = ({
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body" style={{ padding: "3rem" }}>
-              <ContactUsForm />
+            <div
+              class="modal-body"
+              style={{ padding: "3rem", width: "max-content" }}
+            >
+              {/* <ContactUsForm /> */}
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSf9AexFVf8NIhB6AZYEogKUvnwD3F6872rmjzGfQa3VPcFnHA/viewform?embedded=true"
+                width="640"
+                height="851"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+              >
+                Đang tải…
+              </iframe>
             </div>
           </div>
         </div>

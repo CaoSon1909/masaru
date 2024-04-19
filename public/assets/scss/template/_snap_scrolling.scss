@@ -1,36 +1,19 @@
-// .sticky-header-container{
-//     overflow-y: scroll;
-//     scroll-behavior: smooth;
-//     scroll-snap-type: y mandatory;
-//     .hero {
-//         background-color: red;
-//         scroll-snap-align: start;
-//     }
-//     .top-category{
-//         scroll-snap-align: start;
-
-//     }
-// }
-
-.test-01-man{
-    .man-01 {
-        height: 200px;
-        background-color: red;
-        scroll-snap-align: start;
-    }
-    .man-02{
-        height: 500px;
-        background-color: lime;
-        scroll-snap-align: start;
-    }
-    .man-03{
-        height: 320px;
-        background-color: yellow;
-        scroll-snap-align: start;
-    }
-    .man-04 {
-        height: 400px;
-        background-color: blue;
-        scroll-snap-align: start;
-    }
+#fp-nav ul li:hover a.active span,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span {
+  background-color: var(--color-primary);
 }
+
+.modal-dialog {
+    max-width: max-content !important;
+  }
+  
+  .modal-body {
+    display: flex;
+    object-fit: contain;
+  }
+
+  #fp-nav ul li .fp-tooltip.fp-right {
+    color: var(--color-primary);
+  }

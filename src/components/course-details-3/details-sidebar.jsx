@@ -55,14 +55,23 @@ const DetailsSidebar = () => {
             </ul>
 
             <div className="read-more-btn">
-              <a
+              <button
+                type="button"
+                class="edu-btn btn-medium"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Ứng tuyển
+                <i className="icon-4"></i>
+              </button>
+              {/* <a
                 href="https://forms.gle/PxkUndXB7ycaHgX47"
                 rel="noreferrer"
                 target="_blank"
                 class="edu-btn btn-medium"
               >
                 Ứng tuyển <i className="icon-4"></i>
-              </a>
+              </a> */}
             </div>
 
             <div className="share-area">

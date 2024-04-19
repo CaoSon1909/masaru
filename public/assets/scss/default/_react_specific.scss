@@ -319,7 +319,7 @@
 /* dark/light toggle */
 .dark-light-wrapper {
     position: fixed;
-    right: 5px;
+    right: auto;
     top: 50%;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
