@@ -1,16 +1,13 @@
-import React, { useState } from "react";
 import Link from "next/link";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import MainMenu from "../headers/component/main-menu";
-import HeaderTopRight from "../headers/component/header-top-right";
-import HeaderTopLeft from "../headers/component/header-top-left";
 import SearchPopup from "../../components/common/popup-modal/search-popup";
+import OffCanvas from "../../components/common/sidebar/off-canvas";
+import useCartInfo from "../../hooks/use-cart-info";
 import useSticky from "../../hooks/use-sticky";
 import { wishlistItems } from "../../redux/features/wishlist-slice";
-import useCartInfo from "../../hooks/use-cart-info";
-import OffCanvas from "../../components/common/sidebar/off-canvas";
+import MainMenu from "../headers/component/main-menu";
 import Cart from "./component/cart";
-import ContactUsForm from "../../components/forms/contact-us-form";
 
 const categories = [{ link: "/course-style-1", title: "Đơn hàng đang tuyển" }];
 
@@ -97,9 +94,7 @@ const Header = ({
               </div>
               <div className="header-mainnav">
                 <nav className="mainmenu-nav">
-                  {/* main menu start */}
                   <MainMenu />
-                  {/* main menu end */}
                 </nav>
               </div>
               <div className="header-right">
