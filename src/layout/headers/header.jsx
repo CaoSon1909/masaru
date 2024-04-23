@@ -36,7 +36,7 @@ const Header = ({
           disable_full_width ? "disbale-header-fullwidth" : "header-fullwidth"
         } ${no_top_bar ? "no-topbar" : ""}`}
       >
-        {!no_top_bar && (
+        {/* {!no_top_bar && (
           <div className="header-top-bar">
             <div className="container-fluid">
               <div className="header-top">
@@ -49,7 +49,7 @@ const Header = ({
               </div>
             </div>
           </div>
-        )}
+        )} */}
         <div id="edu-sticky-placeholder"></div>
         <div className={`header-mainmenu ${sticky ? "edu-sticky" : ""}`}>
           <div className="container-fluid">
