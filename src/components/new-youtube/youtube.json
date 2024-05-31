@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_new_youtube_youtubes",
+  "info": {
+    "displayName": "Youtube",
+    "icon": "music"
+  },
+  "options": {},
+  "attributes": {
+    "youtube_text": {
+      "type": "string"
+    }
+  }
+}

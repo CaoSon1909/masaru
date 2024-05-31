@@ -1,0 +1,102 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "breadcum_title": {
+      "type": "text"
+    },
+    "about_title": {
+      "type": "string"
+    },
+    "about_desc": {
+      "type": "text"
+    },
+    "about_benefits": {
+      "type": "json"
+    },
+    "about_large_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about_small_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "brand_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "why_choose_pretitle": {
+      "type": "string"
+    },
+    "why_choose_title": {
+      "type": "string"
+    },
+    "choose_box_1_title": {
+      "type": "string"
+    },
+    "choose_box_1_subtitle": {
+      "type": "string"
+    },
+    "choose_box_2_title": {
+      "type": "string"
+    },
+    "choose_box_2_subtitle": {
+      "type": "string"
+    },
+    "choose_box_3_title": {
+      "type": "string"
+    },
+    "choose_box_3_subtitle": {
+      "type": "string"
+    },
+    "testimonial_desc": {
+      "type": "text"
+    },
+    "breadcum_background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "breadcum_subtitle": {
+      "type": "string"
+    }
+  }
+}
