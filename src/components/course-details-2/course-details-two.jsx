@@ -1,5 +1,4 @@
 import React from "react";
-import CourseDetailsSidebar from "../common/sidebar/course-details-sidebar";
 import SingleComment from "../course-details/single-comment";
 import SingleProgressbar from "../course-details/single-progressbar";
 import SingleAccordion from "./single-accordion";
@@ -370,7 +369,7 @@ const CourseDetailsTwo = ({ course }) => {
             </div>
           </div>
           <div className="col-lg-4">
-            <CourseDetailsSidebar course={course} details_2={true} />
+            {/* <CourseDetailsSidebar course={course} details_2={true} /> */}
           </div>
         </div>
       </div>

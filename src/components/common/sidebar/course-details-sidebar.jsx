@@ -1,7 +1,6 @@
 import React from "react";
 import useModal from "../../../hooks/use-modal";
 import { Books } from "../../../svg";
-import { BASE_API_URL } from "../../../utils/base-api-url";
 import { VNDFormatCurrency } from "../../../utils/format-currency";
 import VideoModal from "../popup-modal/video-modal";
 
@@ -20,7 +19,7 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
     overtime_salary,
   } = course || {};
   const { isVideoOpen, setIsVideoOpen } = useModal();
-  const jobThumbnailImageUrl = `${BASE_API_URL}${img?.data[0].attributes.url}`;
+  // const jobThumbnailImageUrl = `${BASE_API_URL}${img?.data[0]?.attributes?.url}`;
 
   return (
     <>
@@ -32,7 +31,7 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
         <div className="edu-course-widget widget-course-summery">
           <div className="inner">
             <div className="thumbnail">
-              <img src={jobThumbnailImageUrl} alt="Course Thumb" />
+              {/* <img src={jobThumbnailImageUrl ?? ""} alt="Course Thumb" /> */}
               <a
                 onClick={() => setIsVideoOpen(true)}
                 style={{ cursor: "pointer" }}

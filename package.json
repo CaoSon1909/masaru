@@ -10,7 +10,6 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@formspree/react": "^2.5.1",
         "@fullpage/react-fullpage": "^0.1.42",
         "@popperjs/core": "^2.11.6",
         "@reduxjs/toolkit": "^1.8.5",

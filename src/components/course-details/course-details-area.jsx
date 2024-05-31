@@ -25,8 +25,6 @@ const CourseDetailsArea = ({ course }) => {
     rating_count,
   } = course || {};
 
-  console.log("course_lessons: ", course_lessons);
-
   const dispatch = useDispatch();
 
   const [loop, setLoop] = useState(false);
@@ -148,15 +146,15 @@ const CourseDetailsArea = ({ course }) => {
                       <p>{curriculum_desc}</p>
                       {course_lessons?.map((item, i) => (
                         <div key={i} className="course-lesson">
-                          <h5 className="title">{item?.attributes.title}</h5>
-                          <p>{item?.attributes.text}</p>
+                          <h5 className="title">{item?.attributes?.title}</h5>
+                          <p>{item?.attributes?.text}</p>
                           <ul>
-                            {item?.attributes.lessons.data.map((list, i) => (
+                            {item?.attributes?.lessons.data?.map((list, i) => (
                               <li key={i}>
-                                {list?.attributes.title && (
+                                {list?.attributes?.title && (
                                   <div className="text">
                                     <i className="icon-65"></i>
-                                    {list?.attributes.title}
+                                    {list?.attributes?.title}
                                   </div>
                                 )}
 
@@ -264,7 +262,7 @@ const CourseDetailsArea = ({ course }) => {
                       <div className="comment-area">
                         <h3 className="heading-title">Bình luận</h3>
                         <div className="comment-list-wrapper">
-                          {reviews?.data.map((review, i) => (
+                          {reviews?.data?.map((review, i) => (
                             <SingleComment key={i} review={review.attributes} />
                           ))}
                         </div>
