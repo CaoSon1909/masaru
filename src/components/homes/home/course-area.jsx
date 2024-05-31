@@ -2,7 +2,8 @@ import Link from "next/link";
 import { course_data } from "../../../data";
 import CourseTypeOne from "../../course/course-type-one";
 
-const CourseArea = () => {
+const CourseArea = ({ data }) => {
+  console.log("data", data);
   return (
     <div className="edu-course-area course-area-1 edu-section-gap bg-lighten01">
       <div className="container">
@@ -43,20 +44,35 @@ const CourseArea = () => {
         </div>
 
         <div className="row g-5" style={{ marginTop: "-50px" }}>
-          {course_data.slice(0, 4).map((course) => {
-            return (
-              <div
-                className="col-md-6 col-xl-3"
-                data-sal-delay="150"
-                data-sal="slide-up"
-                data-sal-duration="800"
-                key={course.id}
-              >
-                <CourseTypeOne data={course} />
-                {/* <CourseTypeFour data={course} /> */}
-              </div>
-            );
-          })}
+          {data
+            ? data.data.slice(0, 4).map((course) => {
+                return (
+                  <div
+                    className="col-md-6 col-xl-3"
+                    data-sal-delay="150"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                    key={course.id}
+                  >
+                    <CourseTypeOne data={course} />
+                    {/* <CourseTypeFour data={course} /> */}
+                  </div>
+                );
+              })
+            : course_data.slice(0, 4).map((course) => {
+                return (
+                  <div
+                    className="col-md-6 col-xl-3"
+                    data-sal-delay="150"
+                    data-sal="slide-up"
+                    data-sal-duration="800"
+                    key={course.id}
+                  >
+                    <CourseTypeOne data={course} />
+                    {/* <CourseTypeFour data={course} /> */}
+                  </div>
+                );
+              })}
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import CourseBreadcrumb from "../breadcrumb/breadcrumb-5";
 import CourseDetailsArea from "./course-details-area";
 
 const index = ({ course }) => {
+  console.log("course: ", course);
   return (
     <div className="sticky-header">
       <div id="main-wrapper" className="main-wrapper">

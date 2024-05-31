@@ -12,7 +12,7 @@ const index = () => {
           title="Đơn hàng tuyển gấp"
           subtitle="Đơn hàng tuyển gấp"
         />
-        <CourseArea isNested={false} />
+        <CourseArea />
         <Footer style_2={"footer-dark bg-image footer-style-2"} />
       </div>
     </div>

@@ -11,9 +11,17 @@
     &.course-style-1 {
         transition: var(--transition-2);
         .thumbnail {
+            height: 26vh;
             transition: var(--transition-2);
+            a {
+                width: 100%;
+                height: 100%;
+            }
             img {
+                object-fit: cover;
                 transition: var(--transition-2);
+                width: 100%;
+                height: 100%;
             }
             &:after {
                 transition: var(--transition-2);

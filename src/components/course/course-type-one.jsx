@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { cart_course } from "../../redux/features/cart-slice";
@@ -6,12 +7,26 @@ import {
   add_to_wishlist,
   wishlistItems,
 } from "../../redux/features/wishlist-slice";
-import { useRouter } from "next/router";
+import { BASE_API_URL } from "../../utils/base-api-url";
+import { VNDFormatCurrency } from "../../utils/format-currency";
 
 const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
   const { cartCourses } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
   const wishlists = useSelector(wishlistItems);
+  //start process data props
+
+  const imgValue = data?.attributes?.img.data[0].attributes.url;
+  const imageUrl = `${BASE_API_URL}${imgValue}`;
+  const title = data?.attributes?.title;
+  const duration = data?.attributes?.duration;
+  const level = data?.attributes?.level;
+  const course_price = data?.attributes?.course_price;
+  const work_hour_per_day = data?.attributes?.work_hour_per_day;
+  const overtime_salary = data?.attributes?.overtime_salary;
+  const expire_date = data?.attributes?.expire_date;
+  const short_desc = data?.attributes?.short_desc;
+  //end process data props
   const isWishlistSelected = wishlists.find(
     (w) => Number(w.id) === Number(data.id)
   );
@@ -59,6 +74,7 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
 
   //handle view detail
   const handleViewDetail = (course) => {
+    console.log("course: ", course);
     router.push(`/course-details/${course.id}`);
   };
 
@@ -72,24 +88,21 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
         <div className="thumbnail">
           <Link href={`/course-details/${data.id}`}>
             <a>
-              <img
-                src={`/assets/images/course/course-${image_location_path}/${data.img}`}
-                alt="Course Meta"
-              />
+              <img src={imageUrl} alt="Course Meta" />
             </a>
           </Link>
           <div className="time-top">
             <span className="duration">
               <i className="icon-61"></i>
-              {data.duration}
+              {duration}
             </span>
           </div>
         </div>
         <div className="content">
-          <span className="course-level">{data.level}</span>
+          <span className="course-level">{level}</span>
           <div className="title">
             <h6>
-              <a href="#">{data.title}</a>
+              <a href="#">{title}</a>
             </h6>
           </div>
           {/* <div className="course-rating">
@@ -105,20 +118,21 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
             </span>
           </div> */}
           <div className="course-price">
-            <i className="icon-60"></i> Mức lương: {data.course_price} VNĐ/Tháng
+            <i className="icon-60"></i> Mức lương:{" "}
+            {VNDFormatCurrency(course_price)}
           </div>
           <ul className="course-meta">
             <li>
               <i className="icon-37"></i>
-              Thời gian: {data.work_hour_per_day} H/ngày
+              Thời gian: {work_hour_per_day} h/ngày
             </li>
             <li>
               <i class="ri-line-chart-line"></i>
-              Tăng ca: {data.overtime_salary} VNĐ/H
+              Tăng ca: {VNDFormatCurrency(overtime_salary)}
             </li>
             <li>
               <i className="icon-33"></i>
-              Hạn nộp hồ sơ: {data.expire_date}
+              Hạn nộp hồ sơ: {expire_date}
             </li>
           </ul>
         </div>
@@ -141,10 +155,10 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
           >
             <i className="icon-22"></i>
           </button>
-          <span className="course-level">{data.level}</span>
+          <span className="course-level">{level}</span>
           <h6 className="title">
             <Link href={`/course-details/${data.id}`}>
-              <a>{data.title}</a>
+              <a>{title}</a>
             </Link>
           </h6>
           {/* <div className="course-rating">
@@ -159,25 +173,25 @@ const CourseTypeOne = ({ data, classes, image_location_path = "01" }) => {
               ({data.rating} /{data.rating_count} ⭐)
             </span>
           </div> */}
-          <p>{data.short_desc}</p>
+          <p>{short_desc}</p>
           <div className="course-price">
             <span className="label">
-              <i className="icon-60"></i> Mức lương: {data.course_price}{" "}
-              VNĐ/Tháng
+              <i className="icon-60"></i> Mức lương:{" "}
+              {VNDFormatCurrency(course_price)}
             </span>
           </div>
           <ul className="course-meta">
             <li>
               <i className="icon-37"></i>
-              Thời gian làm việc: {data.work_hour_per_day} H/ngày
+              Thời gian làm việc: {work_hour_per_day} h/ngày
             </li>
             <li>
               <i className="icon-25"></i>
-              Tăng ca: {data.overtime_salary} VNĐ/H
+              Tăng ca: {VNDFormatCurrency(overtime_salary)} /h
             </li>
             <li>
               <i className="icon-33"></i>
-              Hạn nộp hồ sơ: {data.expire_date}
+              Hạn nộp hồ sơ: {expire_date}
             </li>
           </ul>
           <a

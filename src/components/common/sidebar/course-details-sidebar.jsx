@@ -1,8 +1,9 @@
 import React from "react";
 import useModal from "../../../hooks/use-modal";
 import { Books } from "../../../svg";
+import { BASE_API_URL } from "../../../utils/base-api-url";
+import { VNDFormatCurrency } from "../../../utils/format-currency";
 import VideoModal from "../popup-modal/video-modal";
-import ContactUsForm from "../../forms/contact-us-form";
 
 const CourseDetailsSidebar = ({ course, details_2 = false }) => {
   const {
@@ -19,6 +20,8 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
     overtime_salary,
   } = course || {};
   const { isVideoOpen, setIsVideoOpen } = useModal();
+  const jobThumbnailImageUrl = `${BASE_API_URL}${img?.data[0].attributes.url}`;
+
   return (
     <>
       <div
@@ -29,10 +32,7 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
         <div className="edu-course-widget widget-course-summery">
           <div className="inner">
             <div className="thumbnail">
-              <img
-                src={`/assets/images/course/course-01/${img}`}
-                alt="Course Thumb"
-              />
+              <img src={jobThumbnailImageUrl} alt="Course Thumb" />
               <a
                 onClick={() => setIsVideoOpen(true)}
                 style={{ cursor: "pointer" }}
@@ -48,7 +48,9 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
                   <span className="label">
                     <i className="icon-60"></i>Mức lương:
                   </span>
-                  <span className="price">{course_price} VNĐ/tháng</span>
+                  <span className="price">
+                    {VNDFormatCurrency(course_price)} /tháng
+                  </span>
                 </li>
 
                 <li>

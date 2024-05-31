@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import CourseDetailsSidebar from "../common/sidebar/course-details-sidebar";
-import CommentFormCourse from "../forms/comment-form-course";
-import SingleComment from "./single-comment";
-import SingleProgressbar from "./single-progressbar";
-import CourseArea from "../course-style-1/course-1-area";
+import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { remove_course } from "../../redux/features/search-slice";
+import CourseDetailsSidebar from "../common/sidebar/course-details-sidebar";
+import SingleComment from "../course-details/single-comment";
+import CourseArea from "../course-style-1/course-1-area";
+import CommentFormCourse from "../forms/comment-form-course";
+import SingleProgressbar from "./single-progressbar";
 
 const CourseDetailsArea = ({ course }) => {
   const {
@@ -24,6 +24,8 @@ const CourseDetailsArea = ({ course }) => {
     rating,
     rating_count,
   } = course || {};
+
+  console.log("course_lessons: ", course_lessons);
 
   const dispatch = useDispatch();
 
@@ -144,33 +146,33 @@ const CourseDetailsArea = ({ course }) => {
                     <div className="course-curriculam">
                       <h3 className="heading-title">Lộ trình đào tạo</h3>
                       <p>{curriculum_desc}</p>
-                      {course_lessons.map((lesson, i) => (
+                      {course_lessons?.map((item, i) => (
                         <div key={i} className="course-lesson">
-                          <h5 className="title">{lesson?.title}</h5>
-                          <p>{lesson?.text}</p>
+                          <h5 className="title">{item?.attributes.title}</h5>
+                          <p>{item?.attributes.text}</p>
                           <ul>
-                            {lesson?.lessons?.map((list, i) => (
+                            {item?.attributes.lessons.data.map((list, i) => (
                               <li key={i}>
-                                {list.title && (
+                                {list?.attributes.title && (
                                   <div className="text">
                                     <i className="icon-65"></i>
-                                    {list.title}
+                                    {list?.attributes.title}
                                   </div>
                                 )}
 
-                                {!list?.badge_list && (
+                                {!list?.attributes.badge_list && (
                                   <div className="icon">
-                                    <i className={list?.icon}></i>
+                                    <i className={list?.attributes.icon}></i>
                                   </div>
                                 )}
 
-                                {list?.badge_list && (
+                                {list?.attributes.badge_list && (
                                   <div className="badge-list">
                                     <span className="badge badge-primary">
-                                      {list?.question} Câu hỏi
+                                      {list?.attributes.question} Câu hỏi
                                     </span>
                                     <span className="badge badge-secondary">
-                                      {list?.minutes} Phút
+                                      {list?.attributes.minutes} Phút
                                     </span>
                                   </div>
                                 )}
@@ -262,8 +264,8 @@ const CourseDetailsArea = ({ course }) => {
                       <div className="comment-area">
                         <h3 className="heading-title">Bình luận</h3>
                         <div className="comment-list-wrapper">
-                          {reviews?.map((review, i) => (
-                            <SingleComment key={i} review={review} />
+                          {reviews?.data.map((review, i) => (
+                            <SingleComment key={i} review={review.attributes} />
                           ))}
                         </div>
                       </div>
@@ -292,7 +294,7 @@ const CourseDetailsArea = ({ course }) => {
                   role="tabpanel"
                   aria-labelledby="recommend-tab"
                 >
-                  <CourseArea isNested={true} />
+                  <CourseArea />
                 </div>
               </div>
             </div>

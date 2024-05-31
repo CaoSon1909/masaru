@@ -261,7 +261,7 @@
 
 .sidebar-top-position {
     @media only screen and (min-width: 992px) { 
-        margin-top: -365px;
+        margin-top: auto;
         position: relative;
         z-index: 2;
     }

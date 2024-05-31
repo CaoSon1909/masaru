@@ -17,7 +17,7 @@ const index = () => {
         <Header />
         <HeroArea />
         <AboutArea />
-        <CourseArea isNested={false} />
+        <CourseArea />
         <CounterArea />
         <WhyChose />
         <TeamArea />
